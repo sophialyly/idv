@@ -14,7 +14,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
-
+#gemas para el branch de development
 group :development, :test do
   gem 'sqlite3', '1.3.6'
   #gem 'rspec-rails'
