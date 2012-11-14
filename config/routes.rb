@@ -13,6 +13,8 @@ Idv::Application.routes.draw do
 
   get "home/hymnal"
   
+  get "home/web_data"
+  
   root :to => 'home#index'
   
   #match routes with inteface
@@ -26,6 +28,8 @@ Idv::Application.routes.draw do
   match '/hymnal', :to => 'home#hymnal',:at => :music 
   
   match '/religious_service',:to =>  'home#services', :at => :religious_service 
+  
+  match '/develop', :to => 'home#web_data'
   
 
   

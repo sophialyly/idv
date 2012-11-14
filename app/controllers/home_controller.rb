@@ -16,4 +16,7 @@ class HomeController < ApplicationController
 
   def hymnal
   end
+  
+  def web_data
+  end
 end
