@@ -1,0 +1,14 @@
+<div class="container">
+<div class="span3 well", style="margin-left:155px;">
+<p>Hello <%= @resource.email %>!</p>
+
+<p>Your account has been locked due to an excessive amount of unsuccessful sign in attempts.</p>
+
+<p>Click the link below to unlock your account:</p>
+
+<p><%= link_to 'Unlock my account', unlock_url(@resource, :unlock_token => @resource.unlock_token) %></p>
+</div>
+<div class="span5 circle" style="padding:10px;">
+</div>
+</div>
+

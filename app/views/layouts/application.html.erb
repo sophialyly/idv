@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Idv</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag "favicon.png" %>  
+ 
+  <%= render partial: "shared/header"%>
+  <% if current_user%>
+  <%= render partial: "shared/logged_bar"%>
+  <%else%>
+  <%= render partial: "shared/top_bar"%>
+  <%end%>
+
+</head>
+<body class="container"style="padding-top:50px;">
+  <%= yield %>
+</body></br>
+<footer style="padding-top:50px;" >
+    
+ <%= render partial: "shared/footer"%>
+    
+</footer>
+</html>

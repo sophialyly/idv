@@ -1,0 +1,25 @@
+<div class="container">
+<div class="span3 well", style="margin-left:155px;">
+<h2>Ingresar</h2>
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email %></div>
+
+  <div><%= f.label :password %><br />
+  <%= f.password_field :password %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div><%= f.check_box :remember_me %> <%= f.label :recordar_mi_contrsaeña_para_este_ordenador %></div>
+  <% end -%>
+
+  <div class="pull-right"><%= f.submit "Ingresar", :class=>"btn btn-info" %></div>
+<% end %></br>
+
+<%= render "devise/shared/links" %>
+</div>
+<div class="span5 circle" style="padding:10px;">
+</div>
+</div>
+
+

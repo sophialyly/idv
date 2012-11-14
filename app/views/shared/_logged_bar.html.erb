@@ -1,0 +1,23 @@
+<div class="container">
+ <div class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul class="nav">
+           <li class="divider-vertical">
+          <%= link_to "Videos", videos_path%></li>
+           <li class="divider-vertical">
+          <%= link_to "Himnario", hymnal_path%> </li>
+           <li class="divider-vertical">
+          <%= link_to "Servicios religiosos", religious_service_path%></li>
+      </ul>
+      
+      <ul class="nav pull-right">
+          
+       <%= link_to "Salir", destroy_user_session_path, :class => "brand"%>
+      </ul>	 
+
+  	</div>    
+    </div>
+   </div>
+  </div>
+</div>
