@@ -1,4 +1,6 @@
 <%= authenticate! %>
+<% @auth = authenticate! %>
+<% if @auth == true%>
 <div class="container">
 <div class="span3 well", style="margin-left:155px;">
 <h2>Registro de usuario</h2>
@@ -22,3 +24,6 @@
 <div class="span5 circle" style="padding:10px;">
 </div>
 </div>
+<%else%>
+<h1>Su acceso no es autorizado para registrarse como usuario </h1>
+<%end%>
