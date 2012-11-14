@@ -1,12 +1,10 @@
 source 'https://rubygems.org'
-
-gem 'rails', '3.2.1'
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
-
+gem 'rails', '3.2.1'
+gem 'devise'
+gem 'carrierwave'
+gem 'jquery-rails'
 gem 'json'
 
 # Gems used only for assets and not required
@@ -14,17 +12,24 @@ gem 'json'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer'
-
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'devise'
-gem 'carrierwave'
-gem 'jquery-rails'
+group :development, :test do
+  gem 'sqlite3', '1.3.6'
+  #gem 'rspec-rails'
+  gem 'rack', '~> 1.4.1'
+end
 
+group :staging, :production do
+  #gem 'thin'
+  gem 'heroku'
+  gem "pg"
+  gem 'devise'
+  #gem 'airbrake'
+  gem 'uglifier', '>= 1.0.3'
+  #gem 'thor'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
