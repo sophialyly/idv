@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
-  skip_before_filter :authenticate_user!, :only => [:index]
-  skip_before_filter :authenticate!, :only => [:index]
+  skip_before_filter :authenticate_user!, :only => [:index, :web_data]
   def index
     if current_user
        redirect_to videos_path
