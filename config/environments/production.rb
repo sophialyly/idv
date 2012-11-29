@@ -31,7 +31,7 @@ Idv::Application.configure do
   # config.force_ssl = true
 
   # See everything in the log (default is :info)
-  # config.log_level = :debug
+  #config.log_level = :debug
 
   # Prepend all log lines with the following tags
   # config.log_tags = [ :subdomain, :uuid ]
@@ -60,7 +60,16 @@ Idv::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
-
+   ActionMailer::Base.smtp_settings = {
+        :address        => '50.116.21.144',
+        :port           => '25',
+        :authentication => 'plain',
+        :user_name      => 'wichobabas',
+        :password       => 'qor43e95',
+        :domain         => 'mail.cursame.me'
+    }
+    ActionMailer::Base.delivery_method = :smtp
+  end
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
