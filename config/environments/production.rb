@@ -59,7 +59,7 @@ Idv::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :silence
+  config.active_support.deprecation = :notify
    ActionMailer::Base.smtp_settings = {
         :address        => '50.116.21.144',
         :port           => '25',
@@ -73,4 +73,3 @@ Idv::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-end
