@@ -4,3 +4,4 @@ ActiveSupport::Deprecation.silenced = true
 
 # Initialize the rails application
 Idv::Application.initialize!
+
