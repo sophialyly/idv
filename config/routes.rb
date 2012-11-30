@@ -1,9 +1,5 @@
 Idv::Application.routes.draw do
   devise_for :users
-    
-  get "admin/music"
-
-  get "admin/videos"
 
   get "home/index"
 
@@ -15,6 +11,7 @@ Idv::Application.routes.draw do
   
   get "home/web_data"
   
+  get "home/members"
   root :to => 'home#index'
   
   #match routes with inteface
