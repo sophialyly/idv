@@ -4,8 +4,6 @@ class ApplicationController < ActionController::Base
   helper_method :authenticate!
   helper_method :current_url
 
-        
-  end
   def authenticate!
     authenticate_or_request_with_http_basic do |username, password|
       username == "livingmx" && password == "livin777"      
