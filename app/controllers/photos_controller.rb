@@ -52,10 +52,10 @@ class PhotosController < ApplicationController
 
     respond_to do |format|
       if @photo.save
-        format.html { redirect_to :back, notice: 'Photo was successfully created.' }
+        format.html { redirect_to admin_gallery_path, notice: 'Photo was successfully created.' }
         format.json { render json: @photo, status: :created, location: @photo }
       else
-        format.html { redirect_to :back }
+        format.html { redirect_to admin_gallery_path}
         format.json { render json: @photo.errors, status: :unprocessable_entity }
       end
     end
