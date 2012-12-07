@@ -1,8 +1,5 @@
 CarrierWave.configure do |config|
 
-     # S3 doesn't allow for "+" or "-"...
-     CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.]/
-
      config.fog_credentials = {
        :provider               => 'AWS',       
        :aws_access_key_id      => 'AKIAISIGOKLLQ6T5H3NQ',       
