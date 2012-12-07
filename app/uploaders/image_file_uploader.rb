@@ -2,7 +2,7 @@
 
 class ImageFileUploader < CarrierWave::Uploader::Base
    include CarrierWave::MiniMagick
-   storage :s3
+   storage :fog
    
    def store_dir
       "uploads/images/#{model.id}"
