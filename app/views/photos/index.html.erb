@@ -1,0 +1,91 @@
+<div class="container">
+<div class="content">
+<div class="span10">
+<h3> Galería pública  </h3>
+<% @gallery_public.each do |p|%>
+ <div class="span1">
+     <% @modale_p =  p.id %>
+     <% @title_p = p.title %>
+     <% @image_p = p.image_file.gallery %>
+     
+  <a data-toggle="modal"  role="button" id="p_public_gallery<%= p.id %>" ><%= image_tag(p.image_file.relative)%></a>
+  
+  <script>
+  $(document).ready(function() {       
+     $("#p_public_gallery<%= p.id %>").click(function () {
+
+          $("#public_gallery<%= p.id %>").fadeToggle("");
+       });
+
+    });
+  </script>
+  
+  <div id="public_gallery<%= p.id %>" class="modal hide"  aria-hidden="false" style="display:none; height:550px;">
+      <div class="span7"style="margin:10px;">
+         <%= p.title %><button type="button" class="close" ata-dismiss="modal" id="close<%= p.id %>">×</button>
+      </div>
+                <script>
+                  $(document).ready(function() {       
+                     $("#close<%= p.id %>").click(function () {
+
+                          $("#public_gallery<%= p.id %>").fadeToggle("");
+                       });
+
+                    });
+                  </script>
+      <div style="margin:10px;">    
+        <center>
+       <%= image_tag(@image_p) %>
+        </center>
+      </div>
+   </div>
+</div>
+<%end%>
+
+ 
+</div>
+
+<div class="span10">
+<h3> Galería de fiesta de tabernáculos  </h3>
+<% @gallery_sucot.each do |p|%>
+  <% @modale_y =  p.id %>
+  <% @title_y = p.title %>
+  <% @image_y = p.image_file.gallery %>
+  <div class="span1">
+     <a data-toggle="modal"  role="button" id="p_sucot_gallery<%= p.id %>" ><%= image_tag(p.image_file.relative)%></a>
+     <script>
+       $(document).ready(function() {       
+          $("#p_sucot_gallery<%= p.id %>").click(function () {
+
+               $("#sucot_gallery<%= p.id %>").fadeToggle("");
+            });
+
+         });
+       </script>
+
+       <div id="sucot_gallery<%= p.id %>" class="modal hide"  aria-hidden="false" style="display:none; height:550px;">
+           <div class="span7"style="margin:10px;">
+              <%= p.title %><button type="button" class="close" ata-dismiss="modal" id="close<%= p.id %>">×</button>
+           </div>
+                     <script>
+                       $(document).ready(function() {       
+                          $("#close<%= p.id %>").click(function () {
+
+                               $("#sucot_gallery<%= p.id %>").fadeToggle("");
+                            });
+
+                         });
+                       </script>
+           <div style="margin:10px;">    
+             <center>
+            <%= image_tag(@image_y) %>
+             </center>
+           </div>
+        </div>
+  </div>
+<%end%>
+</div>
+</div>
+
+</div>
+

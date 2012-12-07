@@ -1,0 +1,11 @@
+<div class="container">
+<% @docuent_files.each do |df|%>
+<div class="span1" style="padding:10px; margin-bootom:50px;">
+  <b><%= df.title%></b></br>
+  <%= link_to image_tag(df.image_file.small), docuent_file_path(df.id) %></br>
+  <%= link_to 'Edit', edit_docuent_file_path(df) %></br>
+  <%= link_to 'Destroy', df, confirm: 'Are you sure?', method: :delete %></br>
+</div>
+
+<%end%>
+</div>

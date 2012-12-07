@@ -1,0 +1,12 @@
+
+<div class="container">
+<% @docuent_files.each do |df|%>
+<div class="span1" style="padding:10px; margin-bootom:50px;">
+  <center>
+  <b><%= df.title%></b></br>
+  </center>
+  <%= link_to image_tag(df.image_file.follet), docuent_file_path(df.id) %></br>
+</div>
+
+<%end%>
+</div>

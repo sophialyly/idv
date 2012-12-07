@@ -1,0 +1,33 @@
+<div id="subir_archivo" class="btn" onclick=""> Subir un nuevo archivo </div></br>
+<script>
+    $(document).ready(function() {       
+       $("#subir_archivo").click(function () {
+
+            $("#selected").fadeToggle("slow", "linear");
+         });
+
+      });
+</script>
+<div id="selected" style="overflow:auto; display:none;">
+<%= form_for(@docuent_file) do |f| %>
+  <div class="field"><br />
+      <%= f.label :image_file %><br />
+      <%= f.file_field :image_file %>
+  </div><br />
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div><br />
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description, :rows => 5, :class => "span5" %>
+  </div><br />
+  <div class="field"><br />  
+    <%= f.label :documents %><br />
+    <%= f.file_field :documents, :class => "file" %><br /> 
+  </div><br />
+  <div class="actions">
+    <%= f.submit "subir archivos", :class => "btn" %>
+  </div>
+<% end %>
+</div>

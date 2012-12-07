@@ -1,5 +1,13 @@
 Idv::Application.routes.draw do
+  resources :photos
+
+  resources :docuent_files
+
   devise_for :users
+  
+  get "admin/gallery"
+  
+  get "admin/documents"
 
   get "home/index"
 

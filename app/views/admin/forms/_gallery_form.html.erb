@@ -1,0 +1,30 @@
+<div id="subir_archivo" class="btn" onclick=""> Subir un nueva imagen </div></br>
+<script>
+    $(document).ready(function() {       
+       $("#subir_archivo").click(function () {
+
+            $("#selected").fadeToggle("slow", "linear");
+         });
+
+      });
+</script>
+<div id="selected" style="overflow:auto; display:none;">
+<%= form_for(@photo) do |f| %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :image_file %><br />
+    <%= f.file_field :image_file %>
+  </div>
+  <div class="field">
+    <%= f.label :add_gallery %><br />
+    <%= f.select :add_gallery, options_for_select([['públicas', 'public'], ['privadas', 'private'], ['fiesta de tabernáculos', 'sucot'] ])%>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+</div>

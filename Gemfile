@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.1'
 gem 'devise'
 gem 'carrierwave'
+gem 'mini_magick'
 gem 'jquery-rails'
 gem 'json'
 

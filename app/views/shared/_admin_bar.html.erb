@@ -1,0 +1,39 @@
+<div class="container">
+ <div class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul class="nav">
+           <li class="divider-vertical">
+          <%= link_to "Videos", videos_path%></li>
+           <li class="divider-vertical">
+          <%= link_to "Himnario", hymnal_path%> </li>
+           <li class="divider-vertical">
+          <%= link_to "Servicios en vivo", religious_service_path%></li>
+          
+           
+          
+      </ul>
+      
+      <ul class="nav pull-right">
+          
+       
+       <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+               Administrador
+               <b class="caret"></b>
+           </a>
+           <ul class="dropdown-menu">
+               <li href="#"> <%= link_to "Documentos", admin_documents_path%></li>
+               <li href="#"> <%= link_to "Galería", admin_gallery_path%></li>
+                <li class="divider"></li>
+                <li href="#"><%= link_to "Salir", destroy_user_session_path %></li>
+           </ul>
+       </li>
+       
+      </ul>	 
+
+  	</div>    
+    </div>
+   </div>
+  </div>
+</div>
