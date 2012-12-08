@@ -49,16 +49,9 @@ class PhotosController < ApplicationController
     if current_user.role == "admin"
     
     @photo = Photo.new(params[:photo])
-
-    respond_to do |format|
-      if @photo.save
-        format.html { redirect_to admin_gallery_path, notice: 'Photo was successfully created.' }
-        format.json { render json: @photo, status: :created, location: @photo }
-      else
-        format.html { redirect_to admin_gallery_path}
-        format.json { render json: @photo.errors, status: :unprocessable_entity }
-      end
-    end
+    
+       redirect_to admin_gallery_path
+    
     else
       redirect_to root_path
     end
