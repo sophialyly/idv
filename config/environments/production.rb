@@ -1,6 +1,5 @@
 Idv::Application.configure do
-  HOST = 'www.livingchannel.org'
-  HEROKU_HOST = 'livingchurchofgodlatinamerica'
+  HOST = 'li483-209.members.linode.com'
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
