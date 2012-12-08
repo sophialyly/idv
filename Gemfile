@@ -8,7 +8,7 @@ gem 'mini_magick'
 gem 'jquery-rails'
 gem 'json'
 gem 'fog'
-gem 'excon'
+gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
