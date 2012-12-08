@@ -88,7 +88,6 @@ class PhotosController < ApplicationController
   # DELETE /photos/1
   # DELETE /photos/1.json
   def destroy
-    if current_user.role == "admin"
     @photo = Photo.find(params[:id])
     @photo.destroy
 
@@ -96,8 +95,5 @@ class PhotosController < ApplicationController
       format.html { redirect_to :back }
       format.json { head :no_content }
     end
-  end
-  else
-    redirect_to root_path
   end
 end
