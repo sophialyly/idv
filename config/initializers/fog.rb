@@ -6,7 +6,7 @@
        :region                 => 'us-east-1',                   # optional, defaults to 'us-east-1'
        :endpoint               => 'http://idv-nontouch.s3-website-us-east-1.amazonaws.com/ ' # optional, defaults to nil
      }
-     config.fog_directory  = 'idv-nontouch'                     # required
+     config.fog_directory  = 'idv-nontouch'                          # required
      config.fog_public     = false                                   # optional, defaults to true
      config.fog_attributes = {'Cache-Control'=>'max-age=315576000'}  # optional, defaults to {}
    end
