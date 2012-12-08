@@ -4,7 +4,6 @@
    )
   
    CarrierWave.configure do |config|
-      config.provider          = "AWS"
       config.access_key_id     = "AKIAISIGOKLLQ6T5H3NQ" 
       config.secret_access_key = "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" 
       #config.s3_bucket            = "cursame-#{Rails.env}"
