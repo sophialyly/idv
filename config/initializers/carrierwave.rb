@@ -8,5 +8,5 @@ CarrierWave.configure do |config|
      }
      
      config.fog_directory  = 'idv-nontouch'                                # required
-
+     config.storage = :fog
 end
