@@ -46,6 +46,7 @@ class PhotosController < ApplicationController
   # POST /photos
   # POST /photos.json
   def create
+    if current_user.role == "admin"
     
     @photo = Photo.new(params[:photo])
     
@@ -58,7 +59,9 @@ class PhotosController < ApplicationController
         format.json { render json: @photo.errors, status: :unprocessable_entity }
       end
     end
-
+    else
+      redirect_to root_path
+    end
   end
 
   # PUT /photos/1
@@ -97,6 +100,4 @@ class PhotosController < ApplicationController
   else
     redirect_to root_path
   end
-  
-end
 end
