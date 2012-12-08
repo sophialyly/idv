@@ -1,12 +1,15 @@
-CarrierWave.configure do |config|
-    
+   AWS::S3::Base.establish_connection!(
+     :access_key_id     => 'AKIAISIGOKLLQ6T5H3NQ',
+     :secret_access_key => '8gAD87HsktqMUamIQNZnrs5elIsjkAaYwmfoT'
+   )
+  
    CarrierWave.configure do |config|
-     config.s3_access_key_id     = "AKIAISIGOKLLQ6T5H3NQ" 
-      config.s3_secret_access_key = "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" 
+      config.provider          = "AWS"
+      config.access_key_id     = "AKIAISIGOKLLQ6T5H3NQ" 
+      config.secret_access_key = "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" 
       #config.s3_bucket            = "cursame-#{Rails.env}"
-      config.s3_bucket            = "idv-nontouch"
+      config.bucket            = "idv-nontouch"
       config.storage(Rails.env.test? || Rails.env.development? ? :file : :s3) 
-      config.s3_headers = {"Content-Disposition" => "attachment"}
    end
 
    CarrierWave.configure do |config|
@@ -18,5 +21,3 @@ CarrierWave.configure do |config|
    Rails.configuration.middleware.insert_before('Rack::Sendfile', 'Sass::Plugin::Rack')
    Rails.configuration.middleware.insert_before('Rack::Sendfile', 'Rack::Static', :urls => ['/uploads'], :root => 'tmp')
    
-     
-end
