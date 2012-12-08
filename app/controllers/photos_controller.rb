@@ -57,6 +57,7 @@ class PhotosController < ApplicationController
         format.html { redirect_to :admin_gallery_path}
         format.json { render json: @photo.errors, status: :unprocessable_entity }
       end
+    end
 
   end
 
@@ -96,4 +97,6 @@ class PhotosController < ApplicationController
   else
     redirect_to root_path
   end
+  
+end
 end
