@@ -26,6 +26,8 @@ group :development, :test do
   gem 'sqlite3', '1.3.6'
   #gem 'rspec-rails'
   gem 'rack', '~> 1.4.1'
+  gem 'devise'
+  
 end
 
 group :staging, :production do
