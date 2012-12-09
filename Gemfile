@@ -33,6 +33,7 @@ group :staging, :production do
   gem 'heroku'
   gem "pg"
   gem  "postgres-pr"
+  gem  "ruby-pg"
   gem 'devise'
   #gem 'airbrake'
   gem 'uglifier', '>= 1.0.3'
