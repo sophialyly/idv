@@ -29,7 +29,7 @@ group :development, :test do
 end
 
 group :staging, :production do
-  #gem 'thin'
+  gem 'thin'
   gem 'heroku'
   gem "pg"
   gem 'devise'
