@@ -10,6 +10,8 @@ gem 'json'
 gem "fog", "~> 1.3.1"
 gem 'aws-s3'
 gem 'taps'
+gem "capistrano", "~> 2.13.5"
+gem 'passenger'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -32,8 +34,6 @@ group :staging, :production do
   gem 'devise'
   #gem 'airbrake'
   gem 'uglifier', '>= 1.0.3'
-  gem "therubyracer", "~> 0.11.0"
-  gem 'libv8', '~> 3.11.8'
   gem "capistrano", "~> 2.13.5"
 end
 # To use ActiveModel has_secure_password
