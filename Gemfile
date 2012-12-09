@@ -31,9 +31,7 @@ end
 group :staging, :production do
   gem 'thin'
   gem 'heroku'
-  gem "pg"
-  gem  "postgres-pr"
-  gem  "ruby-pg"
+  gem 'sqlite3', '1.3.6'
   gem 'devise'
   #gem 'airbrake'
   gem 'uglifier', '>= 1.0.3'
