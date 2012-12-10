@@ -1,1 +1,0 @@
-role :db, "{my vps IP}", :primary => true
