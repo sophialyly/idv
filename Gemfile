@@ -38,7 +38,7 @@ group :staging, :production do
   #gem 'airbrake'
   gem 'uglifier', '>= 1.0.3'
   gem "capistrano", "~> 2.13.5"
-  gem 'factory_girl'
+  #gem 'factory_girl'
   gem 'passenger'
   
 end
