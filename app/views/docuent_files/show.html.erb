@@ -29,7 +29,7 @@
 
 <% if Rails.env == "production"%>
 
- <iframe id="viewer" src="http://docs.google.com/gview?url=<%= @docuent_file.documents.url %>&embedded=true" style="width:760px; height:500px;" frameborder="0">
+ <iframe id="viewer" src="http://docs.google.com/gview?url=<%="#{HOST}#{@docuent_file.documents.url}" %>&embedded=true" style="width:760px; height:500px;" frameborder="0">
      
 <%end%>
   </center>
