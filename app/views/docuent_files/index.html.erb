@@ -4,10 +4,19 @@
 <div class="span1" style="padding:10px; margin-bootom:50px;">
   <center>
   <div class="hidden-text">
- <a rel="tooltip" data-placement="left" title="<%= df.title%>"  onClick="goToFile('<%= docuent_file_path(df.id)%>')" > <%= df.title%></a>  </div>
+ <a rel="tooltip" data-placement="left" title="<%= df.title%>"  onClick="goToFile('<%= docuent_file_path(df.id)%>')" > <%= df.title%> </a>  </div>
   </center>
   <%= link_to image_tag(df.image_file.follet), docuent_file_path(df.id) %></br>
 </div>
 
 <%end%>
 </div>
+<script type="text/javascript">
+
+	function goToFile(url){
+		console.log('hola');
+		window.location = url;
+		
+	}
+
+</script>
