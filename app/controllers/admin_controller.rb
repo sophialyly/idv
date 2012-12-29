@@ -18,8 +18,4 @@ class AdminController < ApplicationController
        redirect_to root_path
      end
   end
-  
-  def users
-    @users = User.all
-  end
 end
