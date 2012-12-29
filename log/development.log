@@ -1,0 +1,4755 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-18 23:43:55 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+Compiled admin.css  (0ms)  (pid 5113)
+Compiled bootstrap-responsive.css  (0ms)  (pid 5113)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 5113)
+Compiled bootstrap.css  (0ms)  (pid 5113)
+Compiled bootstrap.min.css  (0ms)  (pid 5113)
+Compiled docuent_files.css  (40ms)  (pid 5113)
+Compiled docuents_files.css  (1ms)  (pid 5113)
+Compiled home.css  (1ms)  (pid 5113)
+Compiled index.css  (3ms)  (pid 5113)
+Compiled musics.css  (1ms)  (pid 5113)
+Compiled photos.css  (1ms)  (pid 5113)
+Compiled videos.css  (2ms)  (pid 5113)
+Compiled application.css  (433ms)  (pid 5113)
+Compiled jquery.js  (1ms)  (pid 5113)
+Compiled jquery_ujs.js  (0ms)  (pid 5113)
+Completed 500 Internal Server Error in 6064ms
+
+ActionView::Template::Error (
+  (in /Users/josealfredoreyesdeantunano/Desktop/version/idv/app/assets/javascripts/admin.js.coffee)):
+    3: <head>
+    4:   <title>Idv</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= favicon_link_tag "favicon.png" %>  
+    9:   
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2212120994540971436_70361009980000'
+
+
+  Rendered /Users/josealfredoreyesdeantunano/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /Users/josealfredoreyesdeantunano/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/josealfredoreyesdeantunano/.rvm/gems/ruby-1.9.3-p286/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (34.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 20:18:28 -0600
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (13.3ms)
+Compiled admin.css  (0ms)  (pid 42050)
+Compiled application.css  (26ms)  (pid 42050)
+Compiled admin.js  (518ms)  (pid 42050)
+Compiled bootstrap-transition.js  (0ms)  (pid 42050)
+Compiled bootstrap.js  (0ms)  (pid 42050)
+Compiled bootstrap.min.js  (0ms)  (pid 42050)
+Compiled bootstrap_dropdown.js  (0ms)  (pid 42050)
+Compiled bootstrap_tab.js  (0ms)  (pid 42050)
+Compiled docuent_files.js  (139ms)  (pid 42050)
+Compiled docuents_files.js  (138ms)  (pid 42050)
+Compiled home.js  (133ms)  (pid 42050)
+Compiled index.js  (133ms)  (pid 42050)
+Compiled musics.js  (123ms)  (pid 42050)
+Compiled photos.js  (153ms)  (pid 42050)
+Compiled videos.js  (196ms)  (pid 42050)
+Compiled application.js  (2107ms)  (pid 42050)
+  Rendered shared/_header.html.erb (1.4ms)
+  Rendered shared/_top_bar.html.erb (1.3ms)
+  Rendered shared/_footer.html.erb (2.0ms)
+Completed 200 OK in 9151ms (Views: 9150.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /admin.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap-responsive.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap-responsive.min.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap.css - 200 OK (13ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap.min.css - 200 OK (15ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /docuent_files.css - 200 OK (3ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /docuents_files.css - 200 OK (2ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /index.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /photos.css - 200 OK (1ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /videos.css - 200 OK (1ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /musics.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /jquery.js - 200 OK (38ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /admin.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap.js - 200 OK (10ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap.min.js - 200 OK (9ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap-transition.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap_tab.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /bootstrap_dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /docuent_files.js - 200 OK (2ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /index.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /docuents_files.js - 200 OK (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /photos.js - 200 OK (3ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /musics.js - 200 OK (2ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:38 -0600
+Served asset /videos.js - 200 OK (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-28 20:18:42 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (130.2ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_top_bar.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 257ms (Views: 180.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:43 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-12-28 20:18:48 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dLTKJbWIzlP1tIGuVFHkHIAp4TaHjB+BjaY5YFtmgMI=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  [1m[36mUser Load (12.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'jose_alfredo@cursa.me' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '07-12-2012 22:43:28.368956', "current_sign_in_at" = '29-12-2012 02:18:48.932237', "last_sign_in_ip" = '189.141.94.127', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 17, "updated_at" = '29-12-2012 02:18:48.933299' WHERE "users"."id" = 1[0m
+  [1m[35m (6.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 282ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/videos
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/videos" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Processing by HomeController#video as HTML
+  Parameters: {"at"=>:video}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  Rendered home/video.html.erb within layouts/application (0.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (30.9ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:49 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:18:55 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (5.3ms)
+  Rendered admin/_documents.html.erb (0.5ms)
+  Rendered admin/documents.html.erb within layouts/application (134.9ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 348ms (Views: 163.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:18:56 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started POST "/docuent_files" for 127.0.0.1 at 2012-12-28 20:19:57 -0600
+Processing by DocuentFilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dLTKJbWIzlP1tIGuVFHkHIAp4TaHjB+BjaY5YFtmgMI=", "docuent_file"=>{"image_file"=>#<ActionDispatch::Http::UploadedFile:0x007fed5df00c10 @original_filename="Captura de pantalla 2011-10-16 a la(s) 19.11.41.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"docuent_file[image_file]\"; filename=\"Captura de pantalla 2011-10-16 a la(s) 19.11.41.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/13/zwlmpfq92kq9bhdyt_7tjrn80000gn/T/RackMultipart20121228-42050-oqqx8c>>, "title"=>"asdsad wnojancokansoan ndosdnaondoandaodoadn", "description"=>"sdadad", "documents"=>#<ActionDispatch::Http::UploadedFile:0x007fed5df136f8 @original_filename="Pivotal Tracker Receipt - 12_17_2012.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"docuent_file[documents]\"; filename=\"Pivotal Tracker Receipt - 12_17_2012.pdf\"\r\nContent-Type: application/pdf\r\n", @tempfile=#<File:/var/folders/13/zwlmpfq92kq9bhdyt_7tjrn80000gn/T/RackMultipart20121228-42050-12s7r0p>>}, "commit"=>"subir archivos"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "docuent_files" ("created_at", "description", "documents", "image_file", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 29 Dec 2012 02:19:59 UTC +00:00], ["description", "sdadad"], ["documents", "Pivotal_Tracker_Receipt_-_12_17_2012.pdf"], ["image_file", "Captura_de_pantalla_2011-10-16_a_la_s__19.11.41.png"], ["title", "asdsad wnojancokansoan ndosdnaondoandaodoadn"], ["updated_at", Sat, 29 Dec 2012 02:19:59 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/documents
+Completed 302 Found in 2332ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (2.6ms)
+  Rendered admin/_documents.html.erb (1.9ms)
+  Rendered admin/documents.html.erb within layouts/application (6.1ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 66.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:19:59 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.2ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered docuent_files/show.html.erb within layouts/application (3.7ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:20:03 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (3.7ms)
+  Rendered admin/_documents.html.erb (2.5ms)
+  Rendered admin/documents.html.erb within layouts/application (8.7ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:15 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:21:54 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (2.2ms)
+  Rendered admin/_documents.html.erb (1.4ms)
+  Rendered admin/documents.html.erb within layouts/application (5.4ms)
+Compiled admin.css  (0ms)  (pid 42050)
+Compiled application.css  (3ms)  (pid 42050)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 3875ms (Views: 3873.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /admin.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:21:58 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:23 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered docuent_files/show.html.erb within layouts/application (2.5ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:22:28 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:29:57 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.7ms)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 42050)
+Compiled application.js  (14ms)  (pid 42050)
+  Rendered shared/_header.html.erb (0.5ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 2515ms (Views: 2514.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap-tooltip.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:30:00 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:07 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:31 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:32:53 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:34:22 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:05 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:35:33 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:36:00 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:01 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.8ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:49 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:36:50 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:02 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered docuent_files/show.html.erb within layouts/application (1.5ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:04 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.8ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:33 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:51 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:52 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:52 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:52 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:52 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.1ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:37:54 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:14 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (2.6ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:29 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:45 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Processing by DocuentFilesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered docuent_files/index.html.erb within layouts/application (1.5ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:38:56 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (3.0ms)
+  Rendered admin/_documents.html.erb (3.6ms)
+  Rendered admin/documents.html.erb within layouts/application (41.3ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 56.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:06 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:07 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (2.1ms)
+  Rendered admin/_documents.html.erb (2.6ms)
+  Rendered admin/documents.html.erb within layouts/application (6.5ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:39:44 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started POST "/docuent_files" for 127.0.0.1 at 2012-12-28 20:40:28 -0600
+Processing by DocuentFilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dLTKJbWIzlP1tIGuVFHkHIAp4TaHjB+BjaY5YFtmgMI=", "docuent_file"=>{"image_file"=>#<ActionDispatch::Http::UploadedFile:0x007fed5b1a7818 @original_filename="Escanear 47.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"docuent_file[image_file]\"; filename=\"Escanear 47.jpeg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/13/zwlmpfq92kq9bhdyt_7tjrn80000gn/T/RackMultipart20121228-42050-1nuxknk>>, "title"=>"dasdasdasd  dasdadasdrgjrgpqjrgpoqjgpoqgoqrjpgroqpgjq", "description"=>"asdasdadsds", "documents"=>#<ActionDispatch::Http::UploadedFile:0x007fed5b1b3398 @original_filename="ISI-271265.pdf", @content_type="application/pdf", @headers="Content-Disposition: form-data; name=\"docuent_file[documents]\"; filename=\"ISI-271265.pdf\"\r\nContent-Type: application/pdf\r\n", @tempfile=#<File:/var/folders/13/zwlmpfq92kq9bhdyt_7tjrn80000gn/T/RackMultipart20121228-42050-1e4mqvr>>}, "commit"=>"subir archivos"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "docuent_files" ("created_at", "description", "documents", "image_file", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 29 Dec 2012 02:40:34 UTC +00:00], ["description", "asdasdadsds"], ["documents", "ISI-271265.pdf"], ["image_file", "Escanear_47.jpeg"], ["title", "dasdasdasd  dasdadasdrgjrgpqjrgpoqjgpoqgoqrjpgroqpgjq"], ["updated_at", Sat, 29 Dec 2012 02:40:34 UTC +00:00]]
+  [1m[35m (306.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/documents
+Completed 302 Found in 5653ms (ActiveRecord: 308.1ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (3.3ms)
+  Rendered admin/_documents.html.erb (3.2ms)
+  Rendered admin/documents.html.erb within layouts/application (8.6ms)
+  Rendered shared/_header.html.erb (0.4ms)
+  Rendered shared/_admin_bar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 225ms (Views: 223.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:34 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (2.1ms)
+  Rendered admin/_documents.html.erb (3.6ms)
+  Rendered admin/documents.html.erb within layouts/application (7.7ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:40:53 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/documents" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (2.8ms)
+  Rendered admin/_documents.html.erb (3.8ms)
+  Rendered admin/documents.html.erb within layouts/application (9.2ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:14 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/2" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered docuent_files/show.html.erb within layouts/application (3.1ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.9ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:18 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered docuent_files/show.html.erb within layouts/application (2.8ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:34 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered docuent_files/show.html.erb within layouts/application (1.7ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_admin_bar.html.erb (0.7ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:36 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/docuent_files/1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Processing by DocuentFilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.1ms)[0m  SELECT "docuent_files".* FROM "docuent_files" WHERE "docuent_files"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered docuent_files/show.html.erb within layouts/application (1.4ms)
+  Rendered shared/_header.html.erb (0.2ms)
+  Rendered shared/_admin_bar.html.erb (0.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 20:43:37 -0600
+Served asset /videos.js - 304 Not Modified (0ms)
