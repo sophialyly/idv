@@ -5,3 +5,9 @@
 .docuemte_file_image_file{
  font-size: 3px;
 }
+.hidden-text{  
+    	white-space: nowrap;
+    	width: 100%;
+    	overflow: hidden;
+        text-overflow: ellipsis;
+}
