@@ -7895,6 +7895,7 @@ Served asset /photos.js - 304 Not Modified (0ms)
 Started GET "/assets/videos.js?body=1" for 189.141.91.118 at 2012-12-14 20:38:06 +0000
 >>>>>>> e24b4a0ea24d2ec2a8f7e5817deb40df8a899e6a
 Served asset /videos.js - 304 Not Modified (0ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for 127.0.0.1 at 2012-12-28 21:31:01 -0600
@@ -11697,3 +11698,301 @@ ActiveRecord::StatementInvalid (SQLite3::ReadOnlyException: attempt to write a r
   Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.9ms)
   Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
   Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+=======
+>>>>>>> f064a841b71637102dacfabbcb4f72b7c4d3baaf
+
+
+Started GET "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:14:27 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (68.5ms)
+Compiled admin.css  (0ms)  (pid 27295)
+Completed 500 Internal Server Error in 314ms
+
+ActionView::Template::Error (Operation not permitted - /home/deploy/idv/tmp/cache/assets/CD6/C20/sprockets%2F86bf772f4327364a1dad3a4b3051c844):
+    3: <head>
+    4:    
+    5:   <title>Iglesia del Dios Viviente</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9:   <%= favicon_link_tag "favicon.png" %>  
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___460187337_94112810'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/" for 189.141.99.5 at 2012-12-29 04:14:33 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Compiled bootstrap-responsive.css  (0ms)  (pid 27295)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Operation not permitted - /home/deploy/idv/tmp/cache/assets/CCD/A70/sprockets%2Fbad1c05050e38932e21564cff46162b3):
+    3: <head>
+    4:    
+    5:   <title>Iglesia del Dios Viviente</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9:   <%= favicon_link_tag "favicon.png" %>  
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___460187337_94112810'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 189.141.99.5 at 2012-12-29 04:15:29 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 27323)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (Operation not permitted - /home/deploy/idv/tmp/cache/assets/D80/5B0/sprockets%2Fb009cc32ee628d995db599b7befc1765):
+    3: <head>
+    4:    
+    5:   <title>Iglesia del Dios Viviente</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9:   <%= favicon_link_tag "favicon.png" %>  
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__221094276_85759100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 189.141.99.5 at 2012-12-29 04:17:18 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Compiled bootstrap.css  (0ms)  (pid 27368)
+Completed 500 Internal Server Error in 107ms
+
+ActionView::Template::Error (Operation not permitted - /home/deploy/idv/tmp/cache/assets/D5E/4D0/sprockets%2Faa61726715c46ea17a59c216bcadaa29):
+    3: <head>
+    4:    
+    5:   <title>Iglesia del Dios Viviente</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9:   <%= favicon_link_tag "favicon.png" %>  
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__882455575_90174340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 189.141.99.5 at 2012-12-29 04:21:18 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (7.9ms)
+Compiled bootstrap.min.css  (1ms)  (pid 27450)
+Completed 500 Internal Server Error in 131ms
+
+ActionView::Template::Error (Operation not permitted - /home/deploy/idv/tmp/cache/assets/CF2/010/sprockets%2F7be9086c960bb4384c9d23a52e489f29):
+    3: <head>
+    4:    
+    5:   <title>Iglesia del Dios Viviente</title>
+    6:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9:   <%= favicon_link_tag "favicon.png" %>  
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__76147505_90814970'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 189.141.99.5 at 2012-12-29 04:24:57 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+Compiled admin.css  (0ms)  (pid 27600)
+Compiled bootstrap-responsive.css  (0ms)  (pid 27600)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 27600)
+Compiled bootstrap.css  (0ms)  (pid 27600)
+Compiled bootstrap.min.css  (0ms)  (pid 27600)
+Compiled docuent_files.css  (11ms)  (pid 27600)
+Compiled docuents_files.css  (1ms)  (pid 27600)
+Compiled home.css  (1ms)  (pid 27600)
+Compiled index.css  (7ms)  (pid 27600)
+Compiled musics.css  (1ms)  (pid 27600)
+Compiled photos.css  (1ms)  (pid 27600)
+Compiled videos.css  (1ms)  (pid 27600)
+Compiled application.css  (194ms)  (pid 27600)
+Compiled jquery.js  (2ms)  (pid 27600)
+Compiled jquery_ujs.js  (0ms)  (pid 27600)
+Compiled admin.js  (216ms)  (pid 27600)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 27600)
+Compiled bootstrap-transition.js  (0ms)  (pid 27600)
+Compiled bootstrap.js  (1ms)  (pid 27600)
+Compiled bootstrap.min.js  (0ms)  (pid 27600)
+Compiled bootstrap_dropdown.js  (0ms)  (pid 27600)
+Compiled bootstrap_tab.js  (0ms)  (pid 27600)
+Compiled docuent_files.js  (223ms)  (pid 27600)
+Compiled docuents_files.js  (204ms)  (pid 27600)
+Compiled home.js  (207ms)  (pid 27600)
+Compiled index.js  (188ms)  (pid 27600)
+Compiled musics.js  (205ms)  (pid 27600)
+Compiled photos.js  (219ms)  (pid 27600)
+Compiled videos.js  (198ms)  (pid 27600)
+Compiled application.js  (2110ms)  (pid 27600)
+  Rendered shared/_header.html.erb (1.9ms)
+  Rendered shared/_top_bar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.5ms)
+Completed 200 OK in 14593ms (Views: 14591.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:12 +0000
+Served asset /admin.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:13 +0000
+Served asset /bootstrap-responsive.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:13 +0000
+Served asset /bootstrap-responsive.min.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:13 +0000
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:13 +0000
+Served asset /bootstrap.min.css - 200 OK (2ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:13 +0000
+Served asset /docuent_files.css - 200 OK (3ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:14 +0000
+Served asset /docuents_files.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:15 +0000
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/index.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:15 +0000
+Served asset /index.css - 200 OK (2ms)
+
+
+Started GET "/assets/musics.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:15 +0000
+Served asset /musics.css - 200 OK (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:15 +0000
+Served asset /photos.css - 200 OK (1ms)
+
+
+Started GET "/assets/videos.css?body=1" for 189.141.99.5 at 2012-12-29 04:25:15 +0000
+Served asset /videos.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:16 +0000
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:17 +0000
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/admin.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:17 +0000
+Served asset /admin.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:17 +0000
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:19 +0000
+Served asset /bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:19 +0000
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:19 +0000
+Served asset /bootstrap.min.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:20 +0000
+Served asset /bootstrap_dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:20 +0000
+Served asset /bootstrap_tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:21 +0000
+Served asset /docuent_files.js - 200 OK (2ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:21 +0000
+Served asset /docuents_files.js - 200 OK (2ms)
+
+
+Started GET "/assets/index.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:22 +0000
+Served asset /index.js - 200 OK (2ms)
+
+
+Started GET "/assets/musics.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:22 +0000
+Served asset /musics.js - 200 OK (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:22 +0000
+Served asset /photos.js - 200 OK (2ms)
+
+
+Started GET "/assets/videos.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:22 +0000
+Served asset /videos.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 189.141.99.5 at 2012-12-29 04:25:22 +0000
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:25:39 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.9ms)
+  Rendered shared/_header.html.erb (0.3ms)
+  Rendered shared/_top_bar.html.erb (0.6ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 181ms (Views: 36.9ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:25:46 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PwNYpBRQqe3RvL5EEed1b7xdCq3v4TXzKQS8SyJupKc=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'jose_alfredo@cursa.me' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '26-12-2012 02:25:50.801213', "current_sign_in_at" = '29-12-2012 04:25:47.049710', "last_sign_in_ip" = '189.141.90.245', "current_sign_in_ip" = '189.141.99.5', "sign_in_count" = 31, "updated_at" = '29-12-2012 04:25:47.051901' WHERE "users"."id" = 1[0m
+  [1m[35m (2.2ms)[0m  commit transaction
+Redirected to http://www.livingchannel.org:3000/admin/documents
+Completed 302 Found in 201ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/documents" for 189.141.99.5 at 2012-12-29 04:25:47 +0000
+Processing by AdminController#documents as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mDocuentFile Load (0.3ms)[0m  SELECT "docuent_files".* FROM "docuent_files" 
+  Rendered admin/forms/_form.html.erb (5.1ms)
+  Rendered admin/_documents.html.erb (86.5ms)
+  Rendered admin/documents.html.erb within layouts/application (93.3ms)
+  Rendered shared/_header.html.erb (0.5ms)
+  Rendered shared/_admin_bar.html.erb (2.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 397ms (Views: 116.0ms | ActiveRecord: 1.1ms)
