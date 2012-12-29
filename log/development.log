@@ -7896,6 +7896,9 @@ Started GET "/assets/videos.js?body=1" for 189.141.91.118 at 2012-12-14 20:38:06
 >>>>>>> e24b4a0ea24d2ec2a8f7e5817deb40df8a899e6a
 Served asset /videos.js - 304 Not Modified (0ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 48dff0f958df1d1d3bca73c9b508492eb99d0e3f
 
 
 Started GET "/" for 127.0.0.1 at 2012-12-28 21:31:01 -0600
@@ -11009,6 +11012,7 @@ Served asset /photos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 21:51:53 -0600
 Served asset /videos.js - 304 Not Modified (0ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for 189.141.99.5 at 2012-12-29 04:05:02 +0000
@@ -11996,3 +12000,5 @@ Processing by AdminController#documents as HTML
   Rendered shared/_admin_bar.html.erb (2.2ms)
   Rendered shared/_footer.html.erb (0.5ms)
 Completed 200 OK in 397ms (Views: 116.0ms | ActiveRecord: 1.1ms)
+=======
+>>>>>>> 48dff0f958df1d1d3bca73c9b508492eb99d0e3f

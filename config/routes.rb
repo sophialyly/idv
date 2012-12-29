@@ -8,6 +8,8 @@ Idv::Application.routes.draw do
   get "admin/gallery"
   
   get "admin/documents"
+  
+  get "admin/users"
 
   get "home/index"
 

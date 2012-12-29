@@ -18,4 +18,12 @@ class AdminController < ApplicationController
        redirect_to root_path
      end
   end
+  
+  def users
+    if current_user.role == "admin"
+    @users = User.all
+     else
+       redirect_to root_path
+     end
+  end
 end
