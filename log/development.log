@@ -11008,3 +11008,692 @@ Served asset /photos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2012-12-28 21:51:53 -0600
 Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 189.141.99.5 at 2012-12-29 04:05:02 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+  Rendered shared/_header.html.erb (2.0ms)
+  Rendered shared/_top_bar.html.erb (1.9ms)
+  Rendered shared/_footer.html.erb (1.3ms)
+Completed 200 OK in 198ms (Views: 197.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /admin.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /bootstrap-responsive.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /bootstrap-responsive.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /bootstrap.min.css - 200 OK (3ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /docuent_files.css - 200 OK (2ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /docuents_files.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/index.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /index.css - 200 OK (2ms)
+
+
+Started GET "/assets/musics.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:03 +0000
+Served asset /musics.css - 200 OK (2ms)
+
+
+Started GET "/assets/photos.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /photos.css - 200 OK (2ms)
+
+
+Started GET "/assets/videos.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /videos.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/admin.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /admin.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:04 +0000
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:05 +0000
+Served asset /bootstrap.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:05 +0000
+Served asset /bootstrap_dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /bootstrap_tab.js - 200 OK (50ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /docuent_files.js - 200 OK (1ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /docuents_files.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/index.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /index.js - 200 OK (2ms)
+
+
+Started GET "/assets/musics.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /musics.js - 200 OK (3ms)
+
+
+Started GET "/assets/photos.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /photos.js - 200 OK (2ms)
+
+
+Started GET "/assets/videos.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:06 +0000
+Served asset /videos.js - 200 OK (2ms)
+
+
+Started GET "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:05:14 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.7ms)
+  Rendered shared/_header.html.erb (0.5ms)
+  Rendered shared/_top_bar.html.erb (1.1ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 224ms (Views: 74.4ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:15 +0000
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:16 +0000
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:17 +0000
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:17 +0000
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:17 +0000
+Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:17 +0000
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 189.141.99.5 at 2012-12-29 04:05:17 +0000
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:05:26 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kiCRsW0b83QfZHgHI2Gb2iGEGZKGjdQ6n38uTa37dX0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'jose_alfredo@cursa.me' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = '29-12-2012 04:05:26.617871', "current_sign_in_ip" = '189.141.99.5', "sign_in_count" = 2, "updated_at" = '29-12-2012 04:05:26.619203' WHERE "users"."id" = 51[0m
+SQLite3::ReadOnlyException: attempt to write a readonly database: UPDATE "users" SET "current_sign_in_at" = '29-12-2012 04:05:26.617871', "current_sign_in_ip" = '189.141.99.5', "sign_in_count" = 2, "updated_at" = '29-12-2012 04:05:26.619203' WHERE "users"."id" = 51
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 185ms
+
+ActiveRecord::StatementInvalid (SQLite3::ReadOnlyException: attempt to write a readonly database: UPDATE "users" SET "current_sign_in_at" = '29-12-2012 04:05:26.617871', "current_sign_in_ip" = '189.141.99.5', "sign_in_count" = 2, "updated_at" = '29-12-2012 04:05:26.619203' WHERE "users"."id" = 51):
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:108:in `step'
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:108:in `block in each'
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:107:in `loop'
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:107:in `each'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:253:in `to_a'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:253:in `block in exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:280:in `block in log'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:247:in `exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:273:in `exec_delete'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/database_statements.rb:94:in `update'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `update'
+  activerecord (3.2.1) lib/active_record/persistence.rb:355:in `update'
+  activerecord (3.2.1) lib/active_record/locking/optimistic.rb:68:in `update'
+  activerecord (3.2.1) lib/active_record/attribute_methods/dirty.rb:74:in `update'
+  activerecord (3.2.1) lib/active_record/timestamp.rb:70:in `update'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:272:in `block in update'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:403:in `_run__950147224__update__931740351__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_update_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:272:in `update'
+  activerecord (3.2.1) lib/active_record/persistence.rb:344:in `create_or_update'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:264:in `block in create_or_update'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:403:in `_run__950147224__save__931740351__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_save_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:264:in `create_or_update'
+  activerecord (3.2.1) lib/active_record/persistence.rb:84:in `save'
+  activerecord (3.2.1) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.1) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.1) lib/active_record/transactions.rb:241:in `block (2 levels) in save'
+  activerecord (3.2.1) lib/active_record/transactions.rb:295:in `block in with_transaction_returning_status'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/database_statements.rb:190:in `transaction'
+  activerecord (3.2.1) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (3.2.1) lib/active_record/transactions.rb:293:in `with_transaction_returning_status'
+  activerecord (3.2.1) lib/active_record/transactions.rb:241:in `block in save'
+  activerecord (3.2.1) lib/active_record/transactions.rb:252:in `rollback_active_record_state!'
+  activerecord (3.2.1) lib/active_record/transactions.rb:240:in `save'
+  devise (2.1.2) lib/devise/models/trackable.rb:30:in `update_tracked_fields!'
+  devise (2.1.2) lib/devise/hooks/trackable.rb:7:in `block in <top (required)>'
+  warden (1.2.1) lib/warden/hooks.rb:14:in `call'
+  warden (1.2.1) lib/warden/hooks.rb:14:in `block in _run_callbacks'
+  warden (1.2.1) lib/warden/hooks.rb:9:in `each'
+  warden (1.2.1) lib/warden/hooks.rb:9:in `_run_callbacks'
+  warden (1.2.1) lib/warden/manager.rb:53:in `_run_callbacks'
+  warden (1.2.1) lib/warden/proxy.rb:179:in `set_user'
+  warden (1.2.1) lib/warden/proxy.rb:323:in `_perform_authentication'
+  warden (1.2.1) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (2.1.2) app/controllers/devise/sessions_controller.rb:15:in `create'
+  actionpack (3.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:469:in `_run__632865042__process_action__239863492__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.1) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.1) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/mapper.rb:40:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:589:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.1) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `_run__291040636__call__931740351__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.1) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.1) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.1) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.1) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started POST "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:06:53 +0000
+
+
+Started HEAD "/" for 127.0.0.1 at 2012-12-29 04:06:53 +0000
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (46.4ms)
+  Rendered shared/_header.html.erb (1.6ms)
+  Rendered shared/_top_bar.html.erb (2.1ms)
+  Rendered shared/_footer.html.erb (1.9ms)
+Completed 200 OK in 219ms (Views: 218.5ms | ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kiCRsW0b83QfZHgHI2Gb2iGEGZKGjdQ6n38uTa37dX0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kiCRsW0b83QfZHgHI2Gb2iGEGZKGjdQ6n38uTa37dX0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  Rendered devise/shared/_links.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.3ms)
+  Rendered shared/_header.html.erb (0.9ms)
+  Rendered shared/_top_bar.html.erb (1.2ms)
+  Rendered shared/_footer.html.erb (0.9ms)
+Completed 200 OK in 410ms (Views: 152.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /admin.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /bootstrap-responsive.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /docuent_files.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /docuents_files.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/index.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /index.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/musics.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /musics.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/photos.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /photos.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/videos.css?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /videos.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:55 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /bootstrap_dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /bootstrap_tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+
+
+Started GET "/assets/docuents_files.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /docuents_files.js - 304 Not Modified (3ms)
+Served asset /docuent_files.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/home.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/index.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/musics.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /musics.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /photos.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/videos.js?body=1" for 189.141.99.5 at 2012-12-29 04:06:56 +0000
+Served asset /videos.js - 304 Not Modified (2ms)
+
+
+Started POST "/users/sign_in" for 189.141.99.5 at 2012-12-29 04:07:23 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kiCRsW0b83QfZHgHI2Gb2iGEGZKGjdQ6n38uTa37dX0=", "user"=>{"email"=>"jose_alfredo+232@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'jose_alfredo+232@cursa.me' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '29-12-2012 01:59:12.392163', "current_sign_in_at" = '29-12-2012 04:07:23.782386', "last_sign_in_ip" = '189.141.99.5', "sign_in_count" = 5, "updated_at" = '29-12-2012 04:07:23.784116' WHERE "users"."id" = 34[0m
+SQLite3::ReadOnlyException: attempt to write a readonly database: UPDATE "users" SET "last_sign_in_at" = '29-12-2012 01:59:12.392163', "current_sign_in_at" = '29-12-2012 04:07:23.782386', "last_sign_in_ip" = '189.141.99.5', "sign_in_count" = 5, "updated_at" = '29-12-2012 04:07:23.784116' WHERE "users"."id" = 34
+  [1m[35m (0.1ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 207ms
+
+ActiveRecord::StatementInvalid (SQLite3::ReadOnlyException: attempt to write a readonly database: UPDATE "users" SET "last_sign_in_at" = '29-12-2012 01:59:12.392163', "current_sign_in_at" = '29-12-2012 04:07:23.782386', "last_sign_in_ip" = '189.141.99.5', "sign_in_count" = 5, "updated_at" = '29-12-2012 04:07:23.784116' WHERE "users"."id" = 34):
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:108:in `step'
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:108:in `block in each'
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:107:in `loop'
+  sqlite3 (1.3.6) lib/sqlite3/statement.rb:107:in `each'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:253:in `to_a'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:253:in `block in exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:280:in `block in log'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:247:in `exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/sqlite_adapter.rb:273:in `exec_delete'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/database_statements.rb:94:in `update'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/query_cache.rb:14:in `update'
+  activerecord (3.2.1) lib/active_record/persistence.rb:355:in `update'
+  activerecord (3.2.1) lib/active_record/locking/optimistic.rb:68:in `update'
+  activerecord (3.2.1) lib/active_record/attribute_methods/dirty.rb:74:in `update'
+  activerecord (3.2.1) lib/active_record/timestamp.rb:70:in `update'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:272:in `block in update'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:403:in `_run__591824804__update__581892913__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_update_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:272:in `update'
+  activerecord (3.2.1) lib/active_record/persistence.rb:344:in `create_or_update'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:264:in `block in create_or_update'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:403:in `_run__591824804__save__581892913__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_save_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activerecord (3.2.1) lib/active_record/callbacks.rb:264:in `create_or_update'
+  activerecord (3.2.1) lib/active_record/persistence.rb:84:in `save'
+  activerecord (3.2.1) lib/active_record/validations.rb:50:in `save'
+  activerecord (3.2.1) lib/active_record/attribute_methods/dirty.rb:22:in `save'
+  activerecord (3.2.1) lib/active_record/transactions.rb:241:in `block (2 levels) in save'
+  activerecord (3.2.1) lib/active_record/transactions.rb:295:in `block in with_transaction_returning_status'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/database_statements.rb:190:in `transaction'
+  activerecord (3.2.1) lib/active_record/transactions.rb:208:in `transaction'
+  activerecord (3.2.1) lib/active_record/transactions.rb:293:in `with_transaction_returning_status'
+  activerecord (3.2.1) lib/active_record/transactions.rb:241:in `block in save'
+  activerecord (3.2.1) lib/active_record/transactions.rb:252:in `rollback_active_record_state!'
+  activerecord (3.2.1) lib/active_record/transactions.rb:240:in `save'
+  devise (2.1.2) lib/devise/models/trackable.rb:30:in `update_tracked_fields!'
+  devise (2.1.2) lib/devise/hooks/trackable.rb:7:in `block in <top (required)>'
+  warden (1.2.1) lib/warden/hooks.rb:14:in `call'
+  warden (1.2.1) lib/warden/hooks.rb:14:in `block in _run_callbacks'
+  warden (1.2.1) lib/warden/hooks.rb:9:in `each'
+  warden (1.2.1) lib/warden/hooks.rb:9:in `_run_callbacks'
+  warden (1.2.1) lib/warden/manager.rb:53:in `_run_callbacks'
+  warden (1.2.1) lib/warden/proxy.rb:179:in `set_user'
+  warden (1.2.1) lib/warden/proxy.rb:323:in `_perform_authentication'
+  warden (1.2.1) lib/warden/proxy.rb:127:in `authenticate!'
+  devise (2.1.2) app/controllers/devise/sessions_controller.rb:15:in `create'
+  actionpack (3.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:469:in `_run__331658198__process_action__946823906__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.1) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.1) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/mapper.rb:40:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:589:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.1) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `_run__214523500__call__581892913__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  railties (3.2.1) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_request_handler.rb:516:in `accept_and_process_next_request'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/rack/application_spawner.rb:206:in `start_request_handler'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/rack/application_spawner.rb:171:in `block in handle_spawn_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/utils.rb:470:in `safe_fork'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/rack/application_spawner.rb:166:in `handle_spawn_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server.rb:180:in `start'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/rack/application_spawner.rb:129:in `start'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/spawn_manager.rb:253:in `block (2 levels) in spawn_rack_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/spawn_manager.rb:246:in `block in spawn_rack_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server_collection.rb:82:in `block in synchronize'
+  <internal:prelude>:10:in `synchronize'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/spawn_manager.rb:244:in `spawn_rack_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/spawn_manager.rb:137:in `spawn_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  /var/lib/passenger-standalone/3.0.18-x86-ruby1.9.3-linux-gcc4.7.2-1002/support/helper-scripts/passenger-spawn-server:99:in `<main>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
