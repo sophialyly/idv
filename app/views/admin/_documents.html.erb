@@ -1,7 +1,9 @@
 <div class="container">
 <% @docuent_files.each do |df|%>
 <div class="span1" style="padding:10px; margin-bootom:50px;">
-  <b><%= df.title%></b></br>
+<div class="hidden-text">
+    <a rel="tooltip" data-placement="left" title="<%= df.title%>"  onClick="goToFile('<%= docuent_file_path(df.id)%>')" > <%= df.title%></a>
+</div>
   <%= link_to image_tag(df.image_file.small), docuent_file_path(df.id) %></br>
   <%= link_to 'Edit', edit_docuent_file_path(df) %></br>
   <%= link_to 'Destroy', df, confirm: 'Are you sure?', method: :delete %></br>
@@ -9,3 +11,13 @@
 
 <%end%>
 </div>
+
+<script type="text/javascript">
+
+	function goToFile(url){
+		console.log('hola');
+		window.location = url;
+		
+	}
+
+</script>

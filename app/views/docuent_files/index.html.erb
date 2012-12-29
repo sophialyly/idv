@@ -3,7 +3,8 @@
 <% @docuent_files.each do |df|%>
 <div class="span1" style="padding:10px; margin-bootom:50px;">
   <center>
-  <b><%= df.title%></b></br>
+  <div class="hidden-text">
+ <a rel="tooltip" data-placement="left" title="<%= df.title%>"  onClick="goToFile('<%= docuent_file_path(df.id)%>')" > <%= df.title%></a>  </div>
   </center>
   <%= link_to image_tag(df.image_file.follet), docuent_file_path(df.id) %></br>
 </div>
