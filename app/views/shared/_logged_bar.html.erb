@@ -7,12 +7,25 @@
           <%= link_to "Videos", videos_path%></li>
            <li class="divider-vertical">
           <%= link_to "Himnario", hymnal_path%> </li>
-           <li class="divider-vertical">
-          <%= link_to "Servicios en vivo", religious_service_path%></li>
           <li class="divider-vertical">
-           <%= link_to "Archivo", docuent_files_path %>
+           <%= link_to "Archivo", docuent_files_path %></li>
           <li class="divider-vertical">
-              <%= link_to "Galería", photos_path %>
+              <%= link_to "Galería", photos_path %></li>
+              
+              <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           Canales
+                           <b class="caret"></b>
+                       </a>
+                      <ul class="dropdown-menu">
+
+                            <li href="#">  <%= link_to "México", religious_service_mexico_path%></li>
+                            <li class="divider"></li>
+                            <li href="#"> <%= link_to "Colombia", reiligius_service_colombian_path%></li>
+                            <li class="divider"></li>                      
+                            <li href="#"> <%= link_to "Puerto Rico", reiligius_service_puerto_rico_path%></li>
+                       </ul>
+                  </li>
       </ul>
       
       <ul class="nav pull-right">
@@ -25,3 +38,10 @@
    </div>
   </div>
 </div>
+<script type="text/javascript">
+    
+    $(function(){
+  	$(".dropdown-toggle").dropdown()
+    });
+    
+</script>

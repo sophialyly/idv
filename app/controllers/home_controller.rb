@@ -11,8 +11,28 @@ class HomeController < ApplicationController
   def services
     members
   end
-
+  
+  def colombian_services
+    members
+  end
+  
+  def puerto_rico_services
+    members
+  end
+  
   def video
+    members
+  end
+  
+  def video_mexico
+     members
+   end
+  
+  def video_colombian
+    members
+  end
+  
+  def video_puerto_rico
     members
   end
 

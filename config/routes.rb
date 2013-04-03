@@ -32,11 +32,19 @@ Idv::Application.routes.draw do
   
   match '/videos', :to => 'home#video', :at => :video
   
+  match '/videos/mexico',:to => 'home#video_mexico', :as => :video_mexico
+  match '/videos/colombia',:to => 'home#video_colombian', :as => :video_colombian
+  match '/videos/perto_rico',:to => 'home#video_puerto_rico', :as => :video_puerto_rico
+  
   match '/hymnal', :to => 'home#hymnal',:at => :music 
   
-  match '/religious_service',:to =>  'home#services', :at => :religious_service 
+  match '/religious_service/mexico',:to =>  'home#services', :at => :religious_service_mexico 
+  match '/religious_service/colombian', :to => 'home#colombian_services', :as => :reiligius_service_colombian
+  match '/religious_service/puerto_rico', :to => 'home#puerto_rico_services', :as => :reiligius_service_puerto_rico
+  
   
   match '/develop', :to => 'home#web_data'
+  
   
 
   
