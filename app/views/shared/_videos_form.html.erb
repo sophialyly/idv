@@ -1,0 +1,22 @@
+<%= form_for(@incert_video = IncertVideo.new ) do |f| %>
+  <% if @incert_video.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@incert_video.errors.count, "error") %> prohibited this incert_video from being saved:</h2>
+
+      <ul>
+      <% @incert_video.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+     <p>incertar el iframe con medidas width="540" height="297" <i> (en las opcciones de vimeo de compartir en  "+Mostrar mas" se encuentra el lugar donde podemos editar estos campos)</i></p>
+    <%= f.label :incertar_iframe_del_viedeo%><br />
+    <%= f.text_area :video_iframe, :class => "span5", :rows => 3 %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Insertar nuevo video de vimeo o youtube', :class => "btn btn-info" %>
+  </div>
+<% end %>

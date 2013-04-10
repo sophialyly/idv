@@ -1,4 +1,6 @@
 Idv::Application.routes.draw do
+  resources :incert_videos
+
   resources :photos
 
   resources :docuent_files
