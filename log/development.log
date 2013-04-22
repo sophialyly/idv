@@ -91299,3 +91299,372 @@ Served asset /videos.js - 304 Not Modified (0ms)
 
 Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2013-04-21 21:10:01 -0500
 Served asset /musics.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-22 11:19:06 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDx5WIFUbWSSPjylQxC0T7sYH20PH/BEAcFvc/6lov0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDx5WIFUbWSSPjylQxC0T7sYH20PH/BEAcFvc/6lov0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (84.4ms)
+Compiled admin.css  (0ms)  (pid 5312)
+Compiled bootstrap-responsive.css  (0ms)  (pid 5312)
+Compiled bootstrap-responsive.min.css  (0ms)  (pid 5312)
+Compiled bootstrap.css  (0ms)  (pid 5312)
+Compiled bootstrap.min.css  (0ms)  (pid 5312)
+Compiled docs.css  (1ms)  (pid 5312)
+Compiled docuent_files.css  (57ms)  (pid 5312)
+Compiled docuents_files.css  (1ms)  (pid 5312)
+Compiled home.css  (1ms)  (pid 5312)
+Compiled incert_videos.css  (20ms)  (pid 5312)
+Compiled index.css  (2ms)  (pid 5312)
+Compiled musics.css  (1ms)  (pid 5312)
+Compiled photos.css  (1ms)  (pid 5312)
+Compiled scaffolds.css  (17ms)  (pid 5312)
+Compiled videos.css  (2ms)  (pid 5312)
+Compiled application.css  (1214ms)  (pid 5312)
+Compiled jquery.js  (1ms)  (pid 5312)
+Compiled jquery_ujs.js  (0ms)  (pid 5312)
+Compiled admin.js  (1452ms)  (pid 5312)
+Compiled bootstrap-tooltip.js  (1ms)  (pid 5312)
+Compiled bootstrap-transition.js  (0ms)  (pid 5312)
+Compiled bootstrap.js  (1ms)  (pid 5312)
+Compiled bootstrap.min.js  (0ms)  (pid 5312)
+Compiled bootstrap_dropdown.js  (0ms)  (pid 5312)
+Compiled bootstrap_tab.js  (0ms)  (pid 5312)
+Compiled docuent_files.js  (140ms)  (pid 5312)
+Compiled docuents_files.js  (158ms)  (pid 5312)
+Compiled home.js  (162ms)  (pid 5312)
+Compiled incert_videos.js  (153ms)  (pid 5312)
+Compiled index.js  (193ms)  (pid 5312)
+Compiled musics.js  (148ms)  (pid 5312)
+Compiled photos.js  (148ms)  (pid 5312)
+Compiled videos.js  (140ms)  (pid 5312)
+Compiled application.js  (3962ms)  (pid 5312)
+  Rendered shared/_mobile_bar.html.erb (4.4ms)
+  Rendered shared/_footer.html.erb (2.8ms)
+Completed 200 OK in 14578ms (Views: 14339.3ms | ActiveRecord: 25.1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap-responsive.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /docs.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /docuent_files.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /photos.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /videos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /docuents_files.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /index.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /musics.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/incert_videos.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /incert_videos.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /jquery.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap_dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /docuent_files.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /videos.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /bootstrap_tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /docuents_files.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/incert_videos.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /incert_videos.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /photos.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:24 -0500
+Served asset /musics.js - 304 Not Modified (2ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-22 11:19:54 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDx5WIFUbWSSPjylQxC0T7sYH20PH/BEAcFvc/6lov0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  [1m[36mUser Load (14.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'jose_alfredo@cursa.me' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '22-04-2013 02:06:12.606358', "current_sign_in_at" = '22-04-2013 16:19:54.602392', "sign_in_count" = 46, "updated_at" = '22-04-2013 16:19:54.604088' WHERE "users"."id" = 1[0m
+  [1m[35m (55.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 436ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-22 11:19:54 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/videos
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/videos" for 127.0.0.1 at 2013-04-22 11:19:54 -0500
+Processing by HomeController#video as HTML
+  Parameters: {"at"=>:video}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (20.6ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  Rendered shared/_videos_form.html.erb (31.5ms)
+  Rendered shared/_videoteca_menu.html.erb (1.1ms)
+  [1m[36mIncertVideo Load (0.2ms)[0m  [1mSELECT "incert_videos".* FROM "incert_videos" ORDER BY id LIMIT 2 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "incert_videos" 
+  Rendered home/video.html.erb within layouts/application (280.0ms)
+  Rendered shared/_mobile_bar.html.erb (2.8ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 342ms (Views: 318.4ms | ActiveRecord: 21.5ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDx5WIFUbWSSPjylQxC0T7sYH20PH/BEAcFvc/6lov0=", "user"=>{"email"=>"jose_alfredo@cursa.me", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Ingresar"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Redirected to http://localhost:3000/videos
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/videos" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Processing by HomeController#video as HTML
+  Parameters: {"at"=>:video}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  Rendered shared/_videos_form.html.erb (1.3ms)
+  Rendered shared/_videoteca_menu.html.erb (0.5ms)
+  [1m[35mIncertVideo Load (0.2ms)[0m  SELECT "incert_videos".* FROM "incert_videos" ORDER BY id LIMIT 2 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "incert_videos" [0m
+  Rendered home/video.html.erb within layouts/application (18.9ms)
+  Rendered shared/_mobile_bar.html.erb (1.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.min.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap-responsive.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /docuents_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /docuent_files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /index.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/incert_videos.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /incert_videos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /photos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.css?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /musics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_dropdown.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap_dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuent_files.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /docuent_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /photos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_tab.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap_tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docuents_files.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /docuents_files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/incert_videos.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /incert_videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/videos.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /videos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/musics.js?body=1" for 127.0.0.1 at 2013-04-22 11:19:55 -0500
+Served asset /musics.js - 304 Not Modified (0ms)

@@ -35,7 +35,8 @@
        </ul>
    </div>
    <%else%>
-   <div class="span5 bs-docs-sidebar">
+   <div class="span10 bs-docs-sidebar">
+       <ul  class="nav span10 nav-list bs-docs-sidenavs">
                  <li href="#"><%= link_to "Videos", videos_path%></li>
                  <li href="#"><%= link_to "Himnario", hymnal_path%> </li>
                  <li href="#"><%= link_to "Archivo", docuent_files_path %></li>
@@ -43,6 +44,7 @@
                   <li href="#"> <%= link_to "Servicios en México", religious_service_mexico_path%></li>
                    <li href="#"> <%= link_to " Servicios en Colombia", reiligius_service_colombian_path%></li>
                    <li href="#"> <%= link_to " Servicios en Puerto Rico", reiligius_service_puerto_rico_path%></li>
+       </ul>
    </div>
    <%end%>
 <%end%>
