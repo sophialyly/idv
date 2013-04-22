@@ -7,19 +7,30 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <%= favicon_link_tag "favicon.png" %>  
-  
+
+  <% if  mobile?%>
+   <%= render partial: "shared/mobile_bar"%>
+   
+  <%else%>
   <%= render partial: "shared/header"%>
+  
   <% if current_user%>
+  <div class="container">
       <% case %>
           <% when current_user.role == "admin" %>
             <%= render partial: "shared/admin_bar"%>
           <% when current_user%>
             <%= render partial: "shared/logged_bar"%>
       <%end%>
+  </div>
   <%else%>
+  <div class="container">
+  
         <%= render partial: "shared/top_bar"%>
+  </div>
+        
   <%end%>
-   
+  <%end%>
 </head>
 <body class="container"style="padding-top:50px;">
     
@@ -48,9 +59,8 @@
         });
   </script>
 </body></br>
+
 <footer style="padding-top:50px;" >
-    
- <%= render partial: "shared/footer"%>
-    
+        <%= render partial: "shared/footer"%>
 </footer>
 </html>

@@ -5,6 +5,11 @@ class HomeController < ApplicationController
     if current_user
        redirect_to videos_path
       else
+      if mobile?
+        redirect_to new_user_session_path
+      else
+        
+      end
     end
   end
 

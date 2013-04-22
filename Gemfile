@@ -15,6 +15,7 @@ gem 'passenger'
 gem 'bundler'
 gem 'heroku'
 gem 'kaminari'
+gem 'useragent'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,6 +43,7 @@ group :staging, :production do
   gem "capistrano", "~> 2.13.5"
   #gem 'factory_girl'
   gem 'passenger'
+  
   
 end
 # To use ActiveModel has_secure_password

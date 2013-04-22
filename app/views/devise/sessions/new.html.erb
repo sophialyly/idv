@@ -1,4 +1,29 @@
 <div class="container">
+<% if mobile?%>
+<div class="span8 well form-2", style="margin-left:140px;">
+    <h2>Ingresar</h2>
+
+    <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+      <div><%= f.email_field :email, :class=>'leng_email  ',:placeholder => 'Email' %></div>
+      <div><%= f.password_field :password, :class=>'span7 ', :placeholder => 'Password' %></div>
+
+      <% if devise_mapping.rememberable? -%>
+        <div><%= f.check_box :remember_me %> <%= f.label :recordar_mi_contrsaeña_para_este_ordenador, :class=>'twenty_ptext' %></div>
+      <% end -%>
+
+      <div class="pull-right"><%= f.submit "Ingresar" %></div>
+    <% end %></br>
+
+</div>
+<div class="span8" , style="margin-left:140px;">
+<%= render "devise/shared/links" %>
+</div>
+
+<div class="span8 well" , style="margin-left:140px;">
+    <b>Bienvenido a la versión Mobile de la Web de la Iglesia del Dios Viviente</b>
+</div>
+
+<%else%>
 <div class="span3 well", style="margin-left:155px;">
 <h2>Ingresar</h2>
 
@@ -20,6 +45,7 @@
 </div>
 <div class="span5 circle" style="padding:10px;">
 </div>
+<%end%>
 </div>
 
 

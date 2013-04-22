@@ -1,0 +1,59 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+          <div class="container">
+      
+     <% if current_user%>
+     
+     <ul class="nav pull-left" style="margin-left:-20px;" ><%= link_to image_tag('logomini.jpg'), root_path %></ul><ul class="nav pull-left" ><%= link_to "Iglesia del Dios Viviente", root_path, :class => "brand"%></ul>
+     <div type="button" class="btn btn-inverse pull-right" data-toggle="collapse" data-target=".nav-collapse" id="hidden_menu"> <%= image_tag('menu.png')%>
+      </div>
+      
+      
+     <%else %>
+           <ul class="nav pull-left" style="margin-left:-20px;" ><%= link_to image_tag('logomini.jpg'), root_path %></ul><ul class="nav pull-left" ><%= link_to "Iglesia del Dios Viviente", root_path, :class => "brand"%></ul>	 
+         
+      <%end%>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="procces_menu"class="span12" style="display:none;">
+<% if current_user %>
+   <% if current_user.role == "admin"%>
+   <div class="span10 bs-docs-sidebar">
+       <ul  class="nav span10 nav-list bs-docs-sidenavs">
+                  <li href="#"><%= link_to "Videos", videos_path%></li>
+                  <li href="#"><%= link_to "Himnario", hymnal_path%> </li>
+                  <li href="#"> <%= link_to "Servicios en México", religious_service_mexico_path%></li>
+                  <li href="#"> <%= link_to " Servicios en Colombia", reiligius_service_colombian_path%></li>
+                  <li href="#"> <%= link_to " Servicios en Puerto Rico", reiligius_service_puerto_rico_path%></li>
+                  <li href="#"> <%= link_to "Documentos", admin_documents_path%></li>
+                  <li href="#"> <%= link_to "Galería", admin_gallery_path%></li>
+                  <li href="#"> <%= link_to "Usuarios", admin_users_path%></li>
+                  <li href="#"><%= link_to "Salir", destroy_user_session_path %></li>
+       </ul>
+   </div>
+   <%else%>
+   <div class="span5 bs-docs-sidebar">
+                 <li href="#"><%= link_to "Videos", videos_path%></li>
+                 <li href="#"><%= link_to "Himnario", hymnal_path%> </li>
+                 <li href="#"><%= link_to "Archivo", docuent_files_path %></li>
+                 <li href="#"><%= link_to "Galería", photos_path %></li>
+                  <li href="#"> <%= link_to "Servicios en México", religious_service_mexico_path%></li>
+                   <li href="#"> <%= link_to " Servicios en Colombia", reiligius_service_colombian_path%></li>
+                   <li href="#"> <%= link_to " Servicios en Puerto Rico", reiligius_service_puerto_rico_path%></li>
+   </div>
+   <%end%>
+<%end%>
+</div>
+  
+<script>
+     $(document).ready(function() {       
+        $("#hidden_menu").click(function () {
+
+             $("#procces_menu").fadeToggle("");
+          });
+
+       });
+</script>
