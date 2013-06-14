@@ -48,7 +48,8 @@ class SpecialRequestsController < ApplicationController
          puts "******* se crean las acciones para mandar mail masico a todos los usuarios *******"
          @users = User.all
          @users.each do |user_to|
-           UserNotify.create_new_request(user_to, request)
+           @mail = UserNotify.create_new_request(user_to, request)
+           puts @mail
          end
         format.js #{ redirect_to @special_request, notice: 'Special request was successfully created.' }
         format.json # { render json: @special_request, status: :created, location: @special_request }
