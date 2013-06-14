@@ -23,15 +23,23 @@ class ApplicationController < ActionController::Base
   end
   
   def suscript_to_magazine
-    @suscript = Suscript.find_by_user_id_and_suscription_type(current_user.id, 'revista')
+    if current_user
+      @suscript = Suscript.find_by_user_id_and_suscription_type(current_user.id, 'revista')
+    end
   end
   
   def suscript_to_course
-    @suscript = Suscript.find_by_user_id_and_suscription_type(current_user.id, 'curso')
+    if current_user
+    
+      @suscript = Suscript.find_by_user_id_and_suscription_type(current_user.id, 'curso')
+   
+    end
   end
   
   def suscript_to_channel
-    @suscript = Suscript.find_by_user_id_and_suscription_type(current_user.id, 'contenidos') 
+     if current_user
+       @suscript = Suscript.find_by_user_id_and_suscription_type(current_user.id, 'contenidos') 
+    end
   end 
  
   
