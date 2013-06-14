@@ -41,9 +41,14 @@ class IncertVideosController < ApplicationController
   # POST /incert_videos.json
   def create
     @incert_video = IncertVideo.new(params[:incert_video])
-
     respond_to do |format|
       if @incert_video.save
+        @suscriptions = Suscript.where(:suscription_type => "contenidos")
+          @suscriptions.each do |suscription| 
+            user = suscription.user
+            type = "contenidos"
+            UserNotify.notification_update(user, type)
+          end
         format.html { redirect_to :back, notice: 'Incert video was successfully created.' }
         format.json { render json: @incert_video, status: :created, location: @incert_video }
       else

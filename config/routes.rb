@@ -1,4 +1,8 @@
 Idv::Application.routes.draw do
+  resources :suscripts
+
+  resources :special_requests
+
   resources :incert_videos
 
   resources :photos
@@ -20,6 +24,11 @@ Idv::Application.routes.draw do
   get "home/video"
 
   get "home/hymnal"
+  
+  get "home/revista", :as => :revista
+  
+  get "home/curso", :as => :curso
+  
   
   get "home/web_data"
   
@@ -48,7 +57,8 @@ Idv::Application.routes.draw do
   match '/develop', :to => 'home#web_data'
   
   
-
+  ## suscritp linalit
+  get '/suscript/express', :to => 'suscripts#express', :as => :suscript_express
   
 
   

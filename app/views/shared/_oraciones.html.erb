@@ -1,3 +1,31 @@
-<div class="well" style="background-color:#EBEDC5;">
-    <h3>Peticiones</h3>
+<div class="well zindex-container-messages" style="background-color:#EAF4F3;">
+    <div style="margin-bottom:10px;">
+    <h3 class="pull-left" style="margin-right:10px;">Peticiones</h3><div rel="tooltip" data-placement="bottom" title="Da click pra crear una nueva petición"  class="image-btn" id="lopk"style="margin-left:18px;"><%= image_tag('m2.png')%></div></br>
+    </div>
+    <script>
+    $('#lopk').click(function() {
+      $('#dependent_form').slideToggle('slow', function() {
+        // Animation complete.
+      });
+    });
+    </script>
+    <div id="dependent_form" class="zindex-div" style="display:none;">
+    <%= render partial: "special_requests/form"%>
+    </div>
+    <%= render partial: "special_requests/index"%>
+    <p style="font-size:12px; width:250px;"><b>
+Da click en la petición que deseas leer completamente.
+    </b>
+    </p>
+    <%= link_to "Ver mis peticiones", special_requests_path%>
 </div>
+
+<script type="text/javascript">
+
+	function goToFile(url){
+		console.log('hola');
+		window.location = url;
+		
+	}
+
+</script>

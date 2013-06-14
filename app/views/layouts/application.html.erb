@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background:#373737;">
 <head>
     
   <title>Iglesia del Dios Viviente</title>
@@ -19,8 +19,11 @@
       <% case %>
           <% when current_user.role == "admin" %>
             <%= render partial: "shared/admin_bar"%>
+            <%= render partial: "shared/suscript"%>
           <% when current_user%>
             <%= render partial: "shared/logged_bar"%>
+            <%= render partial: "shared/suscript"%>
+            
       <%end%>
   </div>
   <%else%>
@@ -32,7 +35,7 @@
   <%end%>
   <%end%>
 </head>
-<body class="container"style="padding-top:50px;">
+<body class="container fonga"style="padding-top:50px;">
     
     <script type="text/javascript">
 

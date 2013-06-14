@@ -1,0 +1,26 @@
+<div class="content">
+
+<% @special_requests.each do |special_request|%>
+<center>
+
+<div class="zindex-container-messages_lj">
+<%= truncate("#{special_request.request_i}", :omission => "", :length => 375) %>
+  <div class="name">
+    <%=  special_request.user.name if ( special_request.user.name != nil) %>
+    <%=  special_request.user.email if ( special_request.user.name == nil) %>
+  </div>
+  <% if  special_request.user.id == current_user.id%>
+  <div class="delete_request_menu">
+    <div class="btn btn-danger"><%= link_to image_tag('delete.png'), special_request, confirm: '¿Estas seguro de querer eliminar?', method: :delete %></div>
+    <div class="btn btn-info"><%= link_to image_tag('pray.png'), special_request_path(special_request.id)%></div>
+  </div>
+  <%end%>
+</div>
+</center>
+<%end%>
+   <div class="container">
+       <div class="span7 pull-right" style="margin-right:40px;">
+       <%= paginate @special_requests%>
+       </div>
+   </div>
+</div>

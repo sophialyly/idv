@@ -1,0 +1,21 @@
+<div class="cb">
+<%  @special_requests = SpecialRequest.last 20 %>
+<% @special_requests.reverse.each do |special_request| %>
+<div id="added">
+<div class="builder" id="special_request<%=special_request.id%>">
+  <%= truncate("#{special_request.request_i}", :omission => "", :length => 45) %> <%= link_to image_tag('16p.png'), special_request_path(special_request)%></br>
+  <div class="name">
+  <%= special_request.user.name if (special_request.user.name != nil) %>
+  <%= special_request.user.email if (special_request.user.name == nil) %>
+  </div>
+</div>
+
+<script>
+$('#special_request<%=special_request.id%>').click(function() {
+  window.location.replace('<%= special_request_path(special_request.id)%>');
+});
+</script>
+
+</div>
+<% end %>
+</div>

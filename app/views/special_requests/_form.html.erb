@@ -1,0 +1,25 @@
+<%= form_for(@special_request = SpecialRequest.new, :remote => true) do |f| %>
+  <% if @special_request.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@special_request.errors.count, "error") %> prohibited this special_request from being saved:</h2>
+
+      <ul>
+      <% @special_request.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+      <center>
+    <%#= f.label :enviar_mensaje %>
+    <%= f.text_area :request_i, :rows => 7, :class => 'span5' %>
+     </center>
+  </div>
+  <div class="actions" style="margin-top:3px;">
+      <center>
+            <%= f.submit "Enviar mensaje", :class => 'btn span5' %>
+      </center>
+  </div>
+<% end %>

@@ -1,0 +1,3 @@
+$('#added').prepend("<%= escape_javascript(render(:partial => '/special_requests/create', :locals => {:special_request => [@special_request]}))%>");
+$('#special_request_request_i').val('');
+$('#dependent_form').hide('slow');

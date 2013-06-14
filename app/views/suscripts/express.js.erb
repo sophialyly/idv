@@ -1,0 +1,16 @@
+<%case%>
+    <% when @type == 'curso' %>
+        alert('Gracias por suscribirte al curso');
+        $('#blcourse').hide();
+        $('#alcourse').prepend('<a style="float:left;" class="btn btn-warning scty" href="<%= curso_path%>"> Ir al Cúrso</a>');
+        $('#suscrip_btn_nav').prepend('<a class="btn" href="<%= curso_path%>">Cúrso</a>');
+    <% when @type == 'revista'%>
+        alert('Gracias por suscribirte a la revista');
+        $('#blmagazine').hide();
+        $('#almagazine').html('<a class="btn btn-warning scty" style="float:left;" href="<%= revista_path %>"> Ir a las revistas</a>');
+        $('#suscrip_btn_nav').prepend('<a class="btn" href="<%= revista_path %>">Revista</a>');
+        
+    <% when @type == 'contenidos'%>
+        alert('Gracias por suscribirte al contenido');
+        $('#blcontent').hide();
+<%end%>

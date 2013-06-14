@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130403220748) do
+ActiveRecord::Schema.define(:version => 20130613235652) do
 
   create_table "docuent_files", :force => true do |t|
     t.string    "title"
@@ -34,6 +34,20 @@ ActiveRecord::Schema.define(:version => 20130403220748) do
     t.string    "add_gallery"
     t.timestamp "created_at",  :null => false
     t.timestamp "updated_at",  :null => false
+  end
+
+  create_table "special_requests", :force => true do |t|
+    t.text     "request_i"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "suscripts", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "suscription_type"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "users", :force => true do |t|

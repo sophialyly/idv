@@ -1,3 +1,3 @@
 class IncertVideo < ActiveRecord::Base
-  paginates_per 2
+  paginates_per 3
 end

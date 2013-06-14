@@ -1,5 +1,87 @@
-<div class="container" style="margin-top:-80px; margin-bottom:-20px;">
-    <center>
-    <%= link_to image_tag("header5.png"), root_path%>
-    </center>
+<div class="container" style="margin-top:-80px; margin-bottom:-1px; width:940px;">
+    
+    
+    <div class="banner">
+        <ul style=" margin-left: -5px;">
+            <li style="background-image: url('/assets/night.jpg'); background-size: 100%; width: 0%; margin-left:3px;">
+                <div class='gigante'>
+                <center>
+                 <div style=" width:410px; margin-top:40px;">
+                    <h1 style="color:#A4A4A4; margin-top:25px">Cúrso Biblico</h1>
+                    <p style="color:#fff; width:400px; text-align:justify;"><b style="color:#A4A4A4;">17</b> Así que les digo esto y les insisto en el Señor: no vivan más con pensamientos frívolos como los gentiles. <b style="color:#A4A4A4;">18</b> A causa de la ignorancia que los domina y por la dureza de su corazón, éstos tienen oscurecido el entendimiento y están alejados de la vida que proviene de Dios.</br>
+                      <i style="color:#A4A4A4; float:right;">Efesios 4:17-18</i> </br>  
+                     
+                     </p>
+                     <div id="alcourse">
+                     <div id="blcourse" style="float:left;">
+                     <% if suscript_to_course == nil%>
+                     <%= link_to "Suscribirme", suscript_express_path(:type => 'curso'), :remote => true, :class => "btn btn-warning scty" %>
+                     <%else%>
+                     <a style="float:left;" class="btn btn-warning scty" href="<%= curso_path%>"> Ir al Cúrso</a>
+                    <%end%>
+                    </div>
+                    </div>
+                    
+                  <div>   
+                </center>
+                </div>
+            </li>
+            <li style="background-image: url('/assets/darkclouds.jpg'); background-size: 105%; width: 0%; margin-left:0px;">
+                <div class='gigante'>
+            
+                         <div style=" width:410px; float:left; margin-left:150px; margin-top:40px;">
+                            <h1 style="color:#A4A4A4; margin-top:25px">El mundo del mañana</h1>
+                            <h4 style="color:#fff; width:400px; text-align:justify;">
+                                ¡Solicita la revista el mundo del mañana de forma 100% gratuita!
+                             </h4>
+                             <div id="almagazine"  style="float:left;">
+                             </div>
+                            <% if suscript_to_magazine == nil%>
+                            <div id="blmagazine"  style="float:left;">
+                            <%= link_to "Solicitar Revista", suscript_express_path(:type => 'revista'), :remote => true, :class => "btn btn-warning scty"%>
+                            </div>
+                            
+                             <%else%>
+                             <div id="blmagazine" style="float:left;">
+                                 <a class="btn btn-warning scty" href="<%= revista_path %>"> Ver revistas</a>
+                             </div>
+                             
+                             <%end%>
+                         </div>   
+                         
+                         <div  style="float:left; margin-top:30px;">
+                                <%= image_tag('portada-revista.png')%>
+                         </div>
+                      
+                </div>
+            </li>
+            <li style="background-image: url('/assets/atardecer.png'); background-size: 105%; width: 0%; margin-left:-3px;">
+                       <div class='gigante'>
+
+                                 <div style=" width:410px; float:left; margin-left:150px; margin-top:40px;">
+                                    <h1 style="color:#A4A4A4; margin-top:25px"> Ve a nuestro canal de contenidos </h1>
+                                    <h4 style="color:#fff; width:400px; text-align:justify;">
+                                      Ve nuestros mas recientes contenidos dentro del canal
+                                     </h4>
+                                     <% if suscript_to_channel == nil%>
+                                     <div id="blcontent"style="float:left;"><%= link_to "Suscribirse a contenidos", suscript_express_path(:type => 'contenidos'), :remote => true, :class => "btn btn-warning scty"%></div>
+                                     
+                                     <%end%>
+                                     
+                                  </div>   
+                                 <div style="float:left; margin-top:30px;">
+                                        <%= image_tag('tv256.png')%>
+                                 </div>
+
+                        </div>
+            </li>
+        </ul>
+    </div>
+    
+    <script>
+      $(function() {
+          $('.banner').unslider();
+      });
+    </script>
+   
 </div>

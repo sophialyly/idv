@@ -1,0 +1,28 @@
+<div class="content">
+<center>
+
+<div class="zindex-container-messages_lj">
+<%= @special_request.request_i %>
+  <div class="name">
+    <%=  @special_request.user.name if ( @special_request.user.name != nil) %>
+    <%=  @special_request.user.email if ( @special_request.user.name == nil) %>
+  </div>
+  <% if  @special_request.user.id == current_user.id%>
+  <div class="delete_request_menu">
+    <%= link_to 'Eliminar', @special_request, confirm: '¿Esta seguro de querer eliminar esta petición?', method: :delete %> |
+    <%= link_to "Ver mis peticiones", special_requests_path%>
+   </div>
+  <%else%>
+        <% if current_user.role == 'admin'%>
+            <div class="delete_request_menu">
+                <%= link_to 'Eliminar', @special_request, confirm: '¿Esta seguro de querer eliminar esta petición?', method: :delete %> |
+                <%= link_to "Ver mis peticiones", special_requests_path%>
+
+            </div>
+        <%end%>   
+  <%end%>
+ 
+</div>
+</center>
+</div>
+
