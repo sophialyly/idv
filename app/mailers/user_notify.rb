@@ -5,7 +5,7 @@ class UserNotify < ActionMailer::Base
   
   def suscript_to_biblic_course(user)
       @user = user
-      @url  = "http://www.livingchannel.org/#{user.id}/biblic_course_members"
+      @url  = "http://www.livingchannel.org/#{@user.id}/biblic_course_members"
       mail :to => @user.email, :subject => "Te has suscrito al Cúrso biblico por correspondencia en www.livingchannel.org "
       
   end

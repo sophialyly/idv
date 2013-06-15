@@ -47,7 +47,8 @@ class IncertVideosController < ApplicationController
           @suscriptions.each do |suscription| 
             user = suscription.user
             type = "contenidos"
-            UserNotify.notification_update(user, type)
+            @mail = UserNotify.notification_update(user, type)
+            puts @mail
           end
         format.html { redirect_to :back, notice: 'Incert video was successfully created.' }
         format.json { render json: @incert_video, status: :created, location: @incert_video }

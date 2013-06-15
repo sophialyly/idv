@@ -10,27 +10,34 @@ class SuscriptsController < ApplicationController
             case 
              when @type == 'curso'
                user = current_user
-               UserNotify.suscript_to_biblic_course(user)
+               @mail_n = UserNotify.suscript_to_biblic_course(user)
+               puts @mail_n 
+               
                  type=@type
                  @admin_users = User.where(:role => 'admin')
                    @admin_users.each do |user_admin|
-                    UserNotify.notification_to_admin(user_admin, user, type)
+                    @mail = UserNotify.notification_to_admin(user_admin, user, type)
+                    puts @mail
                    end
              when @type == 'revista'
                user = current_user
-               UserNotify.suscript_to_magazine(user)
+                @mail_n = UserNotify.suscript_to_magazine(user)
+                 puts @mail_n 
                    type=@type
                    @admin_users = User.where(:role => 'admin')
                      @admin_users.each do |user_admin|
-                      UserNotify.notification_to_admin(user_admin, user, type)
+                       @mail = UserNotify.notification_to_admin(user_admin, user, type)
+                       puts @mail
                      end
              when @type == 'contenidos'
                user = current_user
-               UserNotify.suscript_to_living_channel(user)
+               @mail_n = UserNotify.suscript_to_living_channel(user)
+               puts @mail_n
                      type=@type
                      @admin_users = User.where(:role => 'admin')
                        @admin_users.each do |user_admin|
-                        UserNotify.notification_to_admin(user_admin, user, type)
+                         @mail = UserNotify.notification_to_admin(user_admin, user, type)
+                          puts @mail
                        end
             end
           
