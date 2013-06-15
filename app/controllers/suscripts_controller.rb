@@ -10,34 +10,34 @@ class SuscriptsController < ApplicationController
             case 
              when @type == 'curso'
                user = current_user
-               @mail_n = UserNotify.suscript_to_biblic_course(user)
-               puts @mail_n 
+               @mail_n = UserNotify.suscript_to_biblic_course(user).deliver
+              # puts @mail_n 
                
                  type=@type
                  @admin_users = User.where(:role => 'admin')
                    @admin_users.each do |user_admin|
-                    @mail = UserNotify.notification_to_admin(user_admin, user, type)
-                    puts @mail
+                    @mail = UserNotify.notification_to_admin(user_admin, user, type).deliver
+                 #   puts @mail
                    end
              when @type == 'revista'
                user = current_user
-                @mail_n = UserNotify.suscript_to_magazine(user)
-                 puts @mail_n 
+                @mail_n = UserNotify.suscript_to_magazine(user).deliver
+              #   puts @mail_n 
                    type=@type
                    @admin_users = User.where(:role => 'admin')
                      @admin_users.each do |user_admin|
-                       @mail = UserNotify.notification_to_admin(user_admin, user, type)
-                       puts @mail
+                       @mail = UserNotify.notification_to_admin(user_admin, user, type).deliver
+                      # puts @mail
                      end
              when @type == 'contenidos'
                user = current_user
-               @mail_n = UserNotify.suscript_to_living_channel(user)
-               puts @mail_n
+               @mail_n = UserNotify.suscript_to_living_channel(user).deliver
+              # puts @mail_n
                      type=@type
                      @admin_users = User.where(:role => 'admin')
                        @admin_users.each do |user_admin|
-                         @mail = UserNotify.notification_to_admin(user_admin, user, type)
-                          puts @mail
+                         @mail = UserNotify.notification_to_admin(user_admin, user, type).deliver
+                        #  puts @mail
                        end
             end
           
