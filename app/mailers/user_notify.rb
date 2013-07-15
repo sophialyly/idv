@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-class UserNotify < ActionMailer::Base
-
+class UserNotify < ActionMailer::Base 
+  
   default from: "non-reply@livingchannel.org"
   
   def suscript_to_biblic_course(user)

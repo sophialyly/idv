@@ -1,7 +1,12 @@
-<h2>Revistas</h2>
-
-<center>
-    <h4>Muy pronto podrás disfrutar de nuestra revista El Mundo del Mañana y sus actualizaciones.</h4>
-        <%= image_tag('build.png')%>
-        <pre style="width:300px"> Lanzamiento 30 de junio 2013 </pre>
-</center>
+<div class="container">
+<h2>Revista</h2>
+    <h4>Disfruta de los contenidos de la Revista el Mundo del Mañana</h4>
+        <% @docuent_files.each do |df|%>
+          <div class="span1" style="padding:10px; margin-bootom:50px;">
+          <div class="hidden-text">
+              <a rel="tooltip" data-placement="left" title="<%= df.title%>"  onClick="goToFile('<%= docuent_file_path(df.id)%>')" > <%= df.title%></a>
+          </div>
+            <%= link_to image_tag(df.image_file.small), docuent_file_path(df.id) %>
+          </div>
+        <%end%>
+</div>

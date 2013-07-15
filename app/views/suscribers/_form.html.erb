@@ -1,0 +1,9 @@
+<div class="span10" style="padding:10px;">
+<%= form_for @suscriber, remote: true do |f|%>
+   <%= f.text_field :email, :placeholder => 'email', :class=> 'span4' %>
+   <%= f.text_field :name, :placeholder => 'nombre', :class=> 'span4' %>
+   <div style="margin-right:30px; float:right;">
+   <%= f.submit "Suscribirme", :class => 'btn span2 btn-info' %>
+   </div>
+<%end%>
+</div>

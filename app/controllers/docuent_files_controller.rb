@@ -52,6 +52,22 @@ class DocuentFilesController < ApplicationController
       if @docuent_file.save
         format.html { redirect_to :back, notice: 'Docuent file was successfully created.' }
         format.json { render json: @docuent_file, status: :created, location: @docuent_file }
+       
+        if @docuent_file.typeo == 'magazine'
+          @suscript = Suscript.where(:suscription_type => 'revista')
+          @suscript.each do |s|
+            @mail_n = UserNotify.suscript_to_magazine(s.user).deliver
+          end
+        end
+        
+        
+        if @docuent_file.typeo == 'course'
+          @suscript = Suscript.where(:suscription_type => 'curso')
+          @suscript.each do |s|
+            @mail_n = UserNotify.suscript_to_biblic_course(s.user).deliver
+          end
+        end
+        
       else
         format.html { redirect_to :back, notice: 'Docuent file was no successfully created.' }
         format.json { render json: @docuent_file.errors, status: :unprocessable_entity }

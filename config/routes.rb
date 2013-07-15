@@ -1,4 +1,12 @@
 Idv::Application.routes.draw do
+  get "suscribers/create"
+
+  get "suscribers/new"
+
+  get "suscribers/destroy"
+  
+  resources :suscribers
+  
   resources :suscripts
 
   resources :special_requests

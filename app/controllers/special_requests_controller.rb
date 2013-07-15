@@ -46,7 +46,7 @@ class SpecialRequestsController < ApplicationController
       if @special_request.save
          request = @special_request.request_i
          puts "******* se crean las acciones para mandar mail masico a todos los usuarios *******"
-         @users = User.all
+         @users = User.all + Suscriber.all
          @users.each do |user_to|
            @mail = UserNotify.create_new_request(user_to, request).deliver
            puts @mail

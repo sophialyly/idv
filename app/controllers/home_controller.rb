@@ -12,6 +12,16 @@ class HomeController < ApplicationController
       end
     end
   end
+  def curso
+    members
+    @docuent_files = DocuentFile.where(:typeo => 'course')
+    
+  end
+  
+  def revista
+    members
+    @docuent_files = DocuentFile.where(:typeo => 'magazine')
+  end
 
   def services
     members

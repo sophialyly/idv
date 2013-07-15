@@ -1,0 +1,8 @@
+<% if @suscriber.save %>
+$('#notice').html('<div class="alert alert-success"> <h2 color:#eee;>Gracias por suscribirte</h2> </div>');
+$('#new_suscriber').hide();
+
+<%else%>
+$('#notice').html('<div class="alert alert-error"> <h3 color:#eee;> No se ha podido guardar debido a que ya esta registrado o que alguno de los campos ha faltado de llenar </h3> </div>');
+<%end%>
+

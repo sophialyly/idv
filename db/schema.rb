@@ -11,15 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130613235652) do
+ActiveRecord::Schema.define(:version => 20130715161821) do
 
   create_table "docuent_files", :force => true do |t|
     t.string    "title"
     t.text      "description"
     t.string    "image_file"
     t.string    "documents"
-    t.timestamp "created_at",  :null => false
-    t.timestamp "updated_at",  :null => false
+    t.timestamp "created_at",                      :null => false
+    t.timestamp "updated_at",                      :null => false
+    t.string    "typeo",       :default => "file"
   end
 
   create_table "incert_videos", :force => true do |t|
@@ -39,6 +40,13 @@ ActiveRecord::Schema.define(:version => 20130613235652) do
   create_table "special_requests", :force => true do |t|
     t.text     "request_i"
     t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "suscribers", :force => true do |t|
+    t.string   "email"
+    t.text     "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

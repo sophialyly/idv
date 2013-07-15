@@ -1,6 +1,12 @@
+<div class="container">
 <h2>Curso</h2>
-<center>
-    <h4>Muy pronto podrás disfrutar de nuestro cursó bíblico</h4>
-        <%= image_tag('build.png')%>
-        <pre style="width:300px"> Lanzamiento 30 de junio 2013 </pre>
-</center>
+    <h4>Disfruta de los contenidos del Cúrso Bíblico</h4>
+        <% @docuent_files.each do |df|%>
+          <div class="span1" style="padding:10px; margin-bootom:50px;">
+          <div class="hidden-text">
+              <a rel="tooltip" data-placement="left" title="<%= df.title%>"  onClick="goToFile('<%= docuent_file_path(df.id)%>')" > <%= df.title%></a>
+          </div>
+            <%= link_to image_tag(df.image_file.small), docuent_file_path(df.id) %>
+          </div>
+        <%end%>
+</div>

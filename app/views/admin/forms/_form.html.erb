@@ -26,6 +26,8 @@
     <%= f.label :documents %><br />
     <%= f.file_field :documents, :class => "file" %><br /> 
   </div><br />
+    <%= f.label :tipo_de_publicación %><br />
+    <%= f.select :typeo, options_for_select([['Archivo', 'file'], ['Revista', 'magazine'], ['Curso Bíblico', 'course']])%>
   <div class="actions">
     <%= f.submit "subir archivos", :class => "btn" %>
   </div>
