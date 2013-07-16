@@ -43,7 +43,7 @@ group :staging, :production do
   gem "capistrano", "~> 2.13.5"
   #gem 'factory_girl'
   gem 'passenger'
-  
+  gem 'sendgrid'  
   
 end
 # To use ActiveModel has_secure_password

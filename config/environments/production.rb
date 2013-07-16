@@ -59,18 +59,31 @@ Idv::Application.configure do
   # the I18n.default_locale when a translation can not be found)
   config.i18n.fallbacks = true
   HOST = 'www.livingchannel.org'
-  config.action_mailer.default_url_options = { :host => 'livingchannel.org' }
+  config.action_mailer.default_url_options = { :host => 'www.livingchannel.org' }
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
-   ActionMailer::Base.smtp_settings = {
-        :address        => '50.116.21.144',
-        :port           => '25',
-        :authentication => 'plain',
-        :user_name      => 'wichobabas',
-        :password       => 'qor43e95',
-        :domain         => 'mail.cursame.me'
+   
+   
+   # ActionMailer::Base.smtp_settings = {
+   #    :address        => '50.116.21.144',
+   #    :port           => '25',
+   #    :authentication => 'plain',
+   #    :user_name      => 'wichobabas',
+   #    :password       => 'qor43e95',
+   #    :domain         => 'mail.cursame.me'
+   #}
+    
+    ActionMailer::Base.smtp_settings = {
+      :address => "smtp.sendgrid.net",
+      :port => 25,
+      :domain => "www.livingchannel.org",
+      :authentication => :plain,
+      :user_name => "sir_alfredot",
+      :password => "alfredo2008"
+      :enable_starttls_auto => true
     }
     ActionMailer::Base.delivery_method = :smtp
+    
   end
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
