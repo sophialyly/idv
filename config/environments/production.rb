@@ -79,7 +79,7 @@ Idv::Application.configure do
       :domain => "www.livingchannel.org",
       :authentication => :plain,
       :user_name => "sir_alfredot",
-      :password => "alfredo2008"
+      :password => "alfredo2008",
       :enable_starttls_auto => true
     }
     ActionMailer::Base.delivery_method = :smtp
