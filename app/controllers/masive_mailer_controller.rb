@@ -5,7 +5,7 @@ class MasiveMailerController < ApplicationController
      @users.each do |user|
          @user = user
          @mail_n = UserNotify.masive_mailer(@user, @message).deliver
-         pust @mail_n
+         puts @mail_n
      end
   end
 end
