@@ -1,4 +1,22 @@
+</br></br>
+<div><b>Notas:</b><p>El envío de mail masivo soporta formatos html e inserción de video mediante iframe se recomienda usar el preview antes de enviar mails masivos</p></div>
+<%= form_tag(masive_send_mailer_path, :method => :get, :remote => true) do %>
+    <div><%= text_area_tag 'message', nil, :class => "span12", :rows => 10 %>
+    <div style="float:left;" ><%= submit_tag 'Enviar', :class=>"btn" %></div>
+    <div style="float:left; margin-left:10px;"class="btn btn-info" id="preview">Preview</div></br></br>
+<%end%>
+</br>
+<script>
+   $("#preview").click(function() {
+     $('#posting').html('');
+   var msg = $("#message").val();
+     $('#posting').html(msg);
+   });
+</script>
+<div id="posting" class="span11 well"></div>
+<b>Hola queridos miembros los invito a  suscribirse a  <a href="http://www.livingchannel.org/suscribers/new">livingchannel.org</a> para recibir mails de las actualizaciones</b></br>
+
 <% @users.each do |user| %>
  <div class="span1"><center> <%= user.id %><center></div><div class="span4"> <%= mail_to user.email, user.email %></div><div class="span1"></div></br>
-  
 <%end%>
+

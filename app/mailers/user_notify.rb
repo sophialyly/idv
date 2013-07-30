@@ -42,6 +42,13 @@ class UserNotify < ActionMailer::Base
      mail :to => @user_to.email, :subject => "Notificación de petición"
      
   end
+  
+  def masive_mailer(user, message)
+    @message = message
+    @user = user
+    @url = 'http://www.livingchannel.org/'
+    mail :to => @user.email, :subject => "Mensaje de Living Channel"
+  end
    
    
    
