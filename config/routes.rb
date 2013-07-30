@@ -67,8 +67,13 @@ Idv::Application.routes.draw do
   
   ## suscritp linalit
   get '/suscript/express', :to => 'suscripts#express', :as => :suscript_express
+  get 'masive_send_mailer', :to => 'masive_mailer#masive_send_mailer', :as => :masive_send_mailer
   
-
+  resources :admin do
+      get 'masive_send_mailer'
+  end
+      
+  
   
 
   # The priority is based upon order of creation:

@@ -65,5 +65,5 @@ class ApplicationController < ActionController::Base
      @user_agent = UserAgent.parse(@data_integrate)
      @computer_plataform = @user_agent.platform
    end
-  
+
 end
