@@ -14,10 +14,14 @@
                      </p>
                      <div id="alcourse">
                      <div id="blcourse" style="float:left;">
+                     <% if current_user %>
                      <% if suscript_to_course == nil%>
                      <%= link_to "Suscribirme", suscript_express_path(:type => 'curso'), :remote => true, :class => "btn btn-warning scty" %>
                      <%else%>
                      <a style="float:left;" class="btn btn-warning scty" href="<%= curso_path%>"> Ir al Cúrso</a>
+                    <%end%>
+                    <%else%>
+                     <%= link_to "Suscribirme", 'suscribers/new' ,  :class => "btn btn-warning scty" %>
                     <%end%>
                     </div>
                     </div>
@@ -36,6 +40,7 @@
                              </h4>
                              <div id="almagazine"  style="float:left;">
                              </div>
+                            <% if current_user %>
                             <% if suscript_to_magazine == nil%>
                             <div id="blmagazine"  style="float:left;">
                             <%= link_to "Solicitar Revista", suscript_express_path(:type => 'revista'), :remote => true, :class => "btn btn-warning scty"%>
@@ -46,6 +51,11 @@
                                  <a class="btn btn-warning scty" href="<%= revista_path %>"> Ver revistas</a>
                              </div>
                              
+                             <%end%>
+                             <%else%>
+                              <div id="blmagazine" style="float:left;">
+                                <%= link_to "Suscribirme", 'suscribers/new' ,  :class => "btn btn-warning scty" %>
+                              </div>
                              <%end%>
                          </div>   
                          
@@ -63,9 +73,15 @@
                                     <h4 style="color:#fff; width:400px; text-align:justify;">
                                       Ve nuestros mas recientes contenidos dentro del canal
                                      </h4>
+                                     <% if current_user %>
                                      <% if suscript_to_channel == nil%>
                                      <div id="blcontent"style="float:left;"><%= link_to "Suscribirse a contenidos", suscript_express_path(:type => 'contenidos'), :remote => true, :class => "btn btn-warning scty"%></div>
                                      
+                                     <%end%>
+                                     <%else%>
+                                      <div id="blmagazine" style="float:left;">
+                                       <%= link_to "Suscribirme", 'suscribers/new' , :class => "btn btn-warning scty" %>
+                                      </div>
                                      <%end%>
                                      
                                   </div>   

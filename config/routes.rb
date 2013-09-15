@@ -41,6 +41,7 @@ Idv::Application.routes.draw do
   get "home/web_data"
   
   get "home/members"
+  
   root :to => 'home#index'
   
   #match routes with inteface
@@ -50,7 +51,7 @@ Idv::Application.routes.draw do
   end
   
   match '/videos', :to => 'home#video', :at => :video
-  
+  match '/v_oppen', :to => 'home#public_videos', :as => :public_videos
   match '/videos/mexico',:to => 'home#video_mexico', :as => :video_mexico
   match '/videos/colombia',:to => 'home#video_colombian', :as => :video_colombian
   match '/videos/perto_rico',:to => 'home#video_puerto_rico', :as => :video_puerto_rico

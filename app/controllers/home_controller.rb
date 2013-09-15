@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  skip_before_filter :authenticate_user!, :only => [:index, :web_data]
+  skip_before_filter :authenticate_user!, :only => [:index, :web_data, :public_videos]
   helper_method :members
   def index
     if current_user
@@ -61,5 +61,8 @@ class HomeController < ApplicationController
   
   def members
     @user = User.count
+  end
+  
+  def public_videos
   end
 end

@@ -1,0 +1,27 @@
+<h2>Videos <div class="pull-right">Miembros: <%= members %></div></h2>
+<div class="container">
+<% @incert_videos = IncertVideo.order(:id).page params[:page] %>
+<% @incert_videos.reverse.each do |video| %>
+<div class="container" style="margin-top:10px;">
+    <div class="span7 bak-video" style="margin-left:120px;">
+    
+        <%= (video.video_iframe).html_safe%>
+     
+    </div>
+</div>
+<%end%>
+<div class="container">
+    <div class="span7 pull-right" style="margin-right:40px;">
+    <%= paginate @incert_videos%>
+    </div>
+</div>
+
+<script>
+ var styles_in_public_videos = {
+     width:'700px',
+     height:'370px'
+ };
+  $('iframe').css(styles_in_public_videos);
+  $('.bak-video').css('width','700px');
+  
+</script>
