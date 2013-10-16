@@ -2,6 +2,7 @@ class HomeController < ApplicationController
   skip_before_filter :authenticate_user!, :only => [:index, :web_data, :public_videos]
   helper_method :members
   def index
+     @suscriber = Suscriber.new
     if current_user
        redirect_to videos_path
       else
